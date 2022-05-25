@@ -299,7 +299,7 @@
   }
 
   .timetable-container .slot-container img {
-    max-width: 60%;
+    max-width: 75%;
   }
 
   footer {
@@ -332,6 +332,12 @@
     }
     footer a {
       font-size: 1em;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .timetable-container .slot-container img {
+      max-width: 90%;
     }
   }
 </style>
