@@ -250,12 +250,21 @@
     width: 100%;
   }
   .timetable-container .date-head h2 {
-    background-color: #5624ed;
-    color: #ed47d9;
-    border: 18px solid #59ed24;
     text-align: center;
     margin-block-start: 0em;
     margin-block-end: 0em;
+  }
+
+  .timetable-container:first-child .date-head h2 {
+  background-color: #5624ed;
+    color: #ed47d9;
+    border: 18px solid #59ed24;
+  }
+
+  .timetable-container:nth-child(2) .date-head h2 {
+  background-color: #59ed24;
+    color: #c700b0;
+    border: 18px solid #5624ed;
   }
 
   .timetable-container .slot-container {
