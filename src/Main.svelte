@@ -59,21 +59,21 @@
     <div class="slot-container">
       <div>
         <div>23:00</div>
-        <a href="https://donvito.bandcamp.com/">BC</a>
-      </div>
-      <img
-        src="./assets/typo-bands-min/donvito.min.png"
-        alt="band of logo of don vito"
-      />
-    </div>
-    <div class="slot-container">
-      <div>
-        <div>23:45</div>
         <a href="https://youtu.be/ZpbreLDqeTA">YT</a>
       </div>
       <img
         src="./assets/typo-bands-min/genesisvictoria.min.png"
         alt="band logo of genesisvictoria"
+      />
+    </div>
+    <div class="slot-container">
+      <div>
+        <div>23:45</div>
+        <a href="https://donvito.bandcamp.com/">BC</a>
+      </div>
+      <img
+        src="./assets/typo-bands-min/donvito.min.png"
+        alt="band of logo of don vito"
       />
     </div>
     <div class="slot-container">
