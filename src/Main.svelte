@@ -59,11 +59,11 @@
     <div class="slot-container">
       <div>
         <div>23:00</div>
-        <!-- <a href=""></a> -->
+        <a href="https://donvito.bandcamp.com/">BC</a>
       </div>
       <img
-        src="./assets/typo-bands-min/questionmark.min.png"
-        alt="question mark"
+        src="./assets/typo-bands-min/donvito.min.png"
+        alt="band of logo of don vito"
       />
     </div>
     <div class="slot-container">

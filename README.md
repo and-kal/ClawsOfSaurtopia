@@ -9,10 +9,10 @@ in Leipzig
 - [Snitsh Pitsh](https://flennen.bandcamp.com/track/snitsh-pitsh-rosie-coaster)
 - Icmefur
 - [Cesar Palace](https://cesarpalace.bandcamp.com)
+- [don vito](https://donvito.bandcamp.com/)
 - [Genesis Victoria](https://youtu.be/ZpbreLDqeTA)
 - [Duflan Duflan](https://duflanduflan.bandcamp.com)
 - Aftershow: Steiner + Two Dots
-+ surprise act ヾ(*❦ω❦)ノ
 
 
 #### Sa 28.5.:
