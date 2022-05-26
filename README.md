@@ -12,7 +12,7 @@ in Leipzig
 - [Genesis Victoria](https://youtu.be/ZpbreLDqeTA)
 - [Duflan Duflan](https://duflanduflan.bandcamp.com)
 - Aftershow: Steiner + Two Dots
-- + surprise act ヾ(*❦ω❦)ノ
++ surprise act ヾ(*❦ω❦)ノ
 
 
 #### Sa 28.5.:
