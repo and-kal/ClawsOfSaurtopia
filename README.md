@@ -20,6 +20,6 @@ in Leipzig
 - [Catarat](https://soundcloud.com/catarat/c100000000)
 - [Eyal Talmor](https://crippleclerk.bandcamp.com/)
 - [Kurws](https://kurws.bandcamp.com)
-- [STAXL](https://and-kal.github.io/livecoding)
+- [Staxl](https://and-kal.github.io/livecoding)
 - [YC-CY](https://yc-cy.bandcamp.com/)
 - Aftershow: [Valeska](https://soundcloud.com/va-les-ka) & [Gleeetch](https://soundcloud.com/gleeetch)
