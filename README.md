@@ -5,13 +5,14 @@ in Leipzig
 
 
 #### Fr 27.5.:
-- [St. Toupet](https://youtu.be/RSVMNu6pQw8+)
+- ~~[St. Toupet](https://youtu.be/RSVMNu6pQw8+)~~
+- [Snitsh Pitsh](https://flennen.bandcamp.com/track/snitsh-pitsh-rosie-coaster)
 - Icmefur
 - [Cesar Palace](https://cesarpalace.bandcamp.com)
 - [Genesis Victoria](https://youtu.be/ZpbreLDqeTA)
 - [Duflan Duflan](https://duflanduflan.bandcamp.com)
 - Aftershow: Steiner + Two Dots
-
+- + surprise act ヾ(*❦ω❦)ノ
 
 
 #### Sa 28.5.:
