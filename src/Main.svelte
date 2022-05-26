@@ -29,16 +29,16 @@
     <div class="slot-container">
       <div>
         <div>21:00</div>
-        <a href="https://youtu.be/RSVMNu6pQw8+">YT</a>
+        <a href="https://flennen.bandcamp.com/track/snitsh-pitsh-rosie-coaster">BC</a>
       </div>
       <img
-        src="./assets/typo-bands-min/sttoupet.min.png"
-        alt="band logo of sttoupet"
+        src="./assets/typo-bands-min/snitshpitsh.min.png"
+        alt="band logo of snitsh pitsh"
       />
     </div>
     <div class="slot-container">
       <div>
-        <div>22:00</div>
+        <div>21:45</div>
         <!--<a href=""></a>-->
       </div>
       <img
@@ -48,7 +48,7 @@
     </div>
     <div class="slot-container">
       <div>
-        <div>22:30</div>
+        <div>22:15</div>
         <a href="https://cesarpalace.bandcamp.com">BC</a>
       </div>
       <img
@@ -58,7 +58,17 @@
     </div>
     <div class="slot-container">
       <div>
-        <div>23:15</div>
+        <div>23:00</div>
+        <!-- <a href=""></a> -->
+      </div>
+      <img
+        src="./assets/typo-bands-min/questionmark.min.png"
+        alt="question mark"
+      />
+    </div>
+    <div class="slot-container">
+      <div>
+        <div>23:45</div>
         <a href="https://youtu.be/ZpbreLDqeTA">YT</a>
       </div>
       <img
@@ -68,7 +78,7 @@
     </div>
     <div class="slot-container">
       <div>
-        <div>24:00</div>
+        <div>24:30</div>
         <a href="https://duflanduflan.bandcamp.com">BC</a>
       </div>
       <img
@@ -78,7 +88,7 @@
     </div>
     <div class="slot-container">
       <div>
-        <div>24:45</div>
+        <div>25:15</div>
         <!--<a href=""></a>-->
       </div>
       <img
@@ -300,6 +310,7 @@
 
   .timetable-container .slot-container img {
     max-width: 75%;
+    max-height: 185px;
   }
 
   footer {
