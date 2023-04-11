@@ -1,0 +1,27 @@
+{
+  "name": "Claws Of Saurtopia",
+  "version": "2.0.0",
+  "description": "𝕮laws 𝕺f 𝕾aurtopia 𝕹oise 𝖋estival 2023 // June 2 and June 3 in Leipzig.",
+  "main": "index.html",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/and-kal/ClawsOfSaurtopia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/and-kal/ClawsOfSaurtopia/issues"
+  },
+  "homepage": "https://clawsofsaurtopia.glitch.me",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-webc": "^0.11.0"
+  }
+}
