@@ -8,9 +8,9 @@
 
     <link rel="icon" type="image/png" href="/assets/favicon.ico" />
     <link rel="author" href="/assets/humans.txt" />
-    <!-- <link rel="stylesheet" href="/css/style.css" /> -->
-		<link rel="stylesheet" :href="getBundleFileUrl('css')">
-    <style @raw="getBundle('css')" webc:keep></style>
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -51,18 +51,24 @@
       content="https://scontent-frt3-2.xx.fbcdn.net/v/t1.18169-9/296627_237668039620143_1318302726_n.jpg"
     />
   </head>
-  <script type="application/ld+json">
-  </script>
+  <script type="application/ld+json"></script>
   <body>
     <div id="main-container">
+      {% renderTemplate "webc" %}
       <header-component></header-component>
+      {% endrenderTemplate %}
 
-      <slot></slot>
+      <div id="content">
+        {{ content | safe }}
+      </div>
 
+      {% renderTemplate "webc" %}
       <footer-component></footer-component>
+      {% endrenderTemplate %}
     </div>
 
+    {% renderTemplate "webc" %}
     <copyright-component></copyright-component>
-  
+    {% endrenderTemplate %}
   </body>
 </html>

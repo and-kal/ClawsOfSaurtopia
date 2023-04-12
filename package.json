@@ -1,7 +1,7 @@
 {
-  "name": "Claws Of Saurtopia",
+  "name": "clawsofsaurtopia",
   "version": "2.0.0",
-  "description": "𝕮laws 𝕺f 𝕾aurtopia 𝕹oise 𝖋estival 2023 // June 2 and June 3 in Leipzig.",
+  "description": "Claws Of Saurtopia Noise festival 2023 // June 2 and June 3 in Leipzig.",
   "main": "index.html",
   "scripts": {
     "build": "npx @11ty/eleventy",
