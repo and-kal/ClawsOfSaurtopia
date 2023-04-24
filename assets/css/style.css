@@ -402,8 +402,8 @@ template {
 :root {
   --black: #121212;
   --white: #f8f6f6;
-  --primary: #47f09e;
-  --secondary: #414a73;
+  --primary: #c1fdbe;
+  --secondary: #985fae;
   --fsz: calc(0.9em + 0.125vw);
 }
 

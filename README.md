@@ -2,7 +2,7 @@
 
 🐊 🦤 🐉 🦕 🦎 
 June 2 and June 3
-in Leipzig
+at ZXRX [Leipzig]
 🦣 🦖 🐢 🌋 🐲
 
 #### Friday, 2 June 2023:
@@ -13,6 +13,7 @@ in Leipzig
 - It's Everyone Else
 - Lara A.
 - Nape Neck
+
 #### Saturday, 3 June 2023:
 - Deeskalationskommando
 - Fiat X
@@ -24,3 +25,16 @@ in Leipzig
 - Atol Atol Atol
 
 (×_×;）
+
+🐊 🦤 🐉 🦕 🦎 
+♨️ Warmup ♨️
+April 29
+at SPXLXNKX
+🦣 🦖 🐢 🌋 🐲
+
+#### Saturday, 29 April 2023:
+
+- Pieuvre
+- Untel
+- PLS
+- Fatique Suspecte
