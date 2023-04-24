@@ -402,9 +402,9 @@ template {
 :root {
   --black: #121212;
   --white: #f8f6f6;
-  --primary: #c1fdbe;
-  --secondary: #985fae;
-  --fsz: calc(0.9em + 0.125vw);
+  --primary: #985fae;
+  --secondary: #c1fdbe ;
+  --fsz: calc(0.9em + 0.5vw);
 }
 
 html,
@@ -416,6 +416,10 @@ body {
   font-family: "DOS";
   font-style: normal;
   font-weight: normal;
+}
+
+header {
+  padding: 1rem;
 }
 
 body {
@@ -432,10 +436,39 @@ body {
 
 body #main-container {
   width: 90%;
-  height: 90vh;
+  min-height: 90vh;
   max-width: 550px;
   margin: auto;
   color: var(--primary);
   border: 3px solid var(--primary);
   background-color: var(--secondary);
+}
+
+body #main-container #content {
+  padding: 1rem;
+  text-shadow: 1px 1px var(--black);
+  text-align: center;
+}
+
+body #main-container #content video {
+width: 100%;
+height: auto;
+margin: 1rem 0;}
+
+body #main-container #content .headline {
+  font-size: 2rem;
+  margin: unset;
+}
+
+body #main-container #content .band {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem auto;
+  font-weight: bold;
+}
+body #main-container #content .announcement {
+  padding: 0.5rem;
+  margin: 1rem auto;
+  max-width: 65ch;
+  border: 2px dotted var(--black);
 }
