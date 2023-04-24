@@ -1,0 +1,16 @@
+/* TEAM */         
+Developer: André
+Site: https://and-kal.github.io
+Mastodon: @staxl@sonomu.club 
+Location: Leipzig, Germany
+
+Designer: Markus
+Site: https://markusfaerber.de
+Bandcamp: https://holob.bandcamp.com/ 
+Location: Leipzig, Germany
+
+/* SITE */
+Last update: 2023/04/12
+Standards: HTML5, CSS3, Web Componenents
+Components: 11ty
+Software: VSCodium
