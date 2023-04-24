@@ -1,0 +1,54 @@
+const pluginWebc = require("@11ty/eleventy-plugin-webc");
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
+
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
+  eleventyConfig.addPlugin(pluginWebc, {
+    components: [
+      "_components/**/*.webc",
+      "npm:@11ty/is-land/*.webc",
+      "npm:@11ty/eleventy-plugin-syntaxhighlight/*.webc",
+    ],
+  });
+  eleventyConfig.addPassthroughCopy("./assets/css/*.css");
+  eleventyConfig.addPassthroughCopy("./assets");
+
+  eleventyConfig.addShortcode("bandsAndColours", function () {
+    const randomColourPairings = [
+      ["#f9e07a", "blueviolet"],
+      ["#631f8e", "yellow"],
+      ["#cdd460", "blue"],
+      ["#050f3b", "springgreen"],
+      ["fuchsia", "#34086d"],
+    ];
+
+    const bands = [
+      {
+        name: "Pieuvre",
+        link: "https://kitchenlegrecordsberlin.bandcamp.com/album/pieuvre-hyperstretch",
+      },
+      { name: "Untel", link: "https://soundcloud.com/untel-music" },
+      {
+        name: "PLS",
+        link: "https://pls1312.bandcamp.com/album/merimna-atrata",
+      },
+      {
+        name: "Fatique Suspecte",
+        link: " https://soundcloud.com/fatiguesuspecte ",
+      },
+    ];
+
+    let htmlElement = "";
+
+    bands.map((band, index) => {
+      const currentColourPair =
+        randomColourPairings[index % randomColourPairings.length];
+      htmlElement += `<a href='${band.link}' target='_blank' rel='noopener noreferrer' class='band' style="color:${currentColourPair[0]};background-color:${currentColourPair[1]}">${band.name}</a>`;
+    });
+
+    return htmlElement;
+  });
+  return {
+    passthroughFileCopy: true,
+  };
+};

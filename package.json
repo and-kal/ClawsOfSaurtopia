@@ -1,23 +1,27 @@
 {
-  "name": "svelte-app",
-  "version": "1.0.0",
-  "private": true,
+  "name": "clawsofsaurtopia",
+  "version": "2.0.0",
+  "description": "Claws Of Saurtopia Noise festival 2023 // June 2 and June 3 in Leipzig.",
+  "main": "index.html",
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "start": "sirv public --no-clear"
+    "build": "npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/and-kal/ClawsOfSaurtopia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/and-kal/ClawsOfSaurtopia/issues"
+  },
+  "homepage": "https://clawsofsaurtopia.glitch.me",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^17.0.0",
-    "@rollup/plugin-node-resolve": "^11.0.0",
-    "rollup": "^2.3.4",
-    "rollup-plugin-css-only": "^3.1.0",
-    "rollup-plugin-livereload": "^2.0.0",
-    "rollup-plugin-svelte": "^7.0.0",
-    "rollup-plugin-terser": "^7.0.0",
-    "svelte": "^3.0.0"
+    "@11ty/eleventy": "^2.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^2.0.0"
+    "@11ty/eleventy-plugin-webc": "^0.11.0"
   }
 }

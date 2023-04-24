@@ -1,25 +1,40 @@
-𝕮laws 𝕺f 𝕾aurtopia 𝕹oise 𝖋estival
+𝕮laws 𝕺f 𝕾aurtopia 𝕹oise 𝖋estival 2023
 
-May 27 and May 28, 2022
-in Leipzig
+🐊 🦤 🐉 🦕 🦎 
+June 2 and June 3
+at ZXRX [Leipzig]
+🦣 🦖 🐢 🌋 🐲
 
+#### Friday, 2 June 2023:
+- Gleeetch
+- Territorial Gobbing
+- Rundfunkorchestra
+- Klösse
+- It's Everyone Else
+- Lara A.
+- Nape Neck
 
-#### Fr 27.5.:
-- ~~[St. Toupet](https://youtu.be/RSVMNu6pQw8+)~~
-- [Snitsh Pitsh](https://flennen.bandcamp.com/track/snitsh-pitsh-rosie-coaster)
-- Icmefur
-- [Cesar Palace](https://cesarpalace.bandcamp.com)
-- [don vito](https://donvito.bandcamp.com/)
-- [Genesis Victoria](https://youtu.be/ZpbreLDqeTA)
-- [Duflan Duflan](https://duflanduflan.bandcamp.com)
-- Aftershow: Steiner + Two Dots
+#### Saturday, 3 June 2023:
+- Deeskalationskommando
+- Fiat X
+- Sathönay
+- Earthlogoff
+- Makroplastik
+- Cantenac Dagar
+- Heimat
+- Atol Atol Atol
 
+(×_×;）
 
-#### Sa 28.5.:
-- [Rusz](https://goldendoomrecords.bandcamp.com/album/hell)
-- [Catarat](https://soundcloud.com/catarat/c100000000)
-- [Eyal Talmor](https://crippleclerk.bandcamp.com/)
-- [Kurws](https://kurws.bandcamp.com)
-- [Staxl](https://and-kal.github.io/livecoding)
-- [YC-CY](https://yc-cy.bandcamp.com/)
-- Aftershow: [Valeska](https://soundcloud.com/va-les-ka) & [Gleeetch](https://soundcloud.com/gleeetch)
+🐊 🦤 🐉 🦕 🦎 
+♨️ Warmup ♨️
+April 29
+at SPXLXNKX
+🦣 🦖 🐢 🌋 🐲
+
+#### Saturday, 29 April 2023:
+
+- Pieuvre
+- Untel
+- PLS
+- Fatique Suspecte
