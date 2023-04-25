@@ -43,7 +43,7 @@ module.exports = function (eleventyConfig) {
     bands.map((band, index) => {
       const currentColourPair =
         randomColourPairings[index % randomColourPairings.length];
-      htmlElement += `<a href='${band.link}' target='_blank' rel='noopener noreferrer' class='band' style="color:${currentColourPair[0]};background-color:${currentColourPair[1]}">${band.name}</a>`;
+      htmlElement += `<a href='${band.link}' target='_blank' rel='noopener noreferrer' class='band' style="color:${currentColourPair[0]};background-color:${currentColourPair[1]};border:3px groove ${currentColourPair[0]}">${band.name}</a>`;
     });
 
     return htmlElement;
