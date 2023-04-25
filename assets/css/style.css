@@ -463,8 +463,14 @@ body #main-container #content .headline {
   margin: unset;
   border: 10px solid var(--white);
   background-color: var(--white);
-border-image: repeating-linear-gradient(45deg,var(--secondary),var(--secondary) 1%,var(--primary) 1%,var(--primary) 8%) 10;
-
+  border-image: repeating-linear-gradient(
+      45deg,
+      var(--secondary),
+      var(--secondary) 1%,
+      var(--primary) 1%,
+      var(--primary) 8%
+    )
+    10;
 }
 
 body #main-container #content #bands {
@@ -473,10 +479,21 @@ body #main-container #content #bands {
 }
 
 body #main-container #content #bands .band {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+}
+body #main-container #content #bands .band_link {
   width: fit-content;
   padding: 0.5rem 1rem;
   margin: 0.5rem auto;
   font-weight: bold;
+  box-shadow: 4px 4px 0 var(--black);
+}
+
+body #main-container #content #bands .band_bio {
+  margin-top: 0.5rem;
+  line-height: calc(var(--fsz) * 1.25);
+  text-align: left;
 }
 body #main-container #content #onStage {
   font-size: 1.5rem;
@@ -491,4 +508,3 @@ body #main-container #content .announcement {
   max-width: 65ch;
   border: 2px dotted var(--black);
 }
-

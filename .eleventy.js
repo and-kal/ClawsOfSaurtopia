@@ -24,16 +24,23 @@ module.exports = function (eleventyConfig) {
 
     const bands = [
       {
-        name: "Pieuvre",
+        name: "Pieuvre {Brln}",
+        bio: "Berlin trio patching together raw-no wavey guitar, a punk-funk like rhythm session and well-crafted vocal melodies.",
         link: "https://kitchenlegrecordsberlin.bandcamp.com/album/pieuvre-hyperstretch",
       },
-      { name: "Untel", link: "https://soundcloud.com/untel-music" },
       {
-        name: "PLS",
+        name: "Untel {Fr}",
+        bio: "The music Untel generates is an odd one, a threshold towards some sunken worlds, some would say, or the celebrating of an unknown deity's wedding",
+        link: "https://soundcloud.com/untel-music",
+      },
+      {
+        name: "PLS {Fr}",
+        bio: "PLS is an electronic trio 100% machines. They propose a music at the crossroads of several styles between melodic synths, techno rhythms and saturated songs.",
         link: "https://pls1312.bandcamp.com/album/merimna-atrata",
       },
       {
-        name: "Fatique Suspecte",
+        name: "Fatique Suspecte {Lpz}",
+        bio: "A duo combining experimental breakcore/techno with ambient and noise undertones, equally matching for outdoor raves and the dirty basement in some diy punk squat.",
         link: " https://soundcloud.com/fatiguesuspecte ",
       },
     ];
@@ -43,7 +50,21 @@ module.exports = function (eleventyConfig) {
     bands.map((band, index) => {
       const currentColourPair =
         randomColourPairings[index % randomColourPairings.length];
-      htmlElement += `<a href='${band.link}' target='_blank' rel='noopener noreferrer' class='band' style="color:${currentColourPair[0]};background-color:${currentColourPair[1]};border:3px groove ${currentColourPair[0]}">${band.name}</a>`;
+      htmlElement += `<div
+        class='band'
+        style="color:${currentColourPair[0]};background-color:${currentColourPair[1]};border:3px groove ${currentColourPair[0]}">
+        <a href='${band.link}' 
+          target='_blank' rel='noopener noreferrer' 
+          class='band_link'
+          style="color:${currentColourPair[1]};background-color:${currentColourPair[0]}"
+        >
+          ${band.name}
+        </a>
+        <div class='band_bio'>
+          ${band.bio}
+        </div>
+      </div>
+    `;
     });
 
     return htmlElement;
