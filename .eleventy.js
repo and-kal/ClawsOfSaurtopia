@@ -11,7 +11,16 @@ module.exports = function (eleventyConfig) {
     ],
   });
   eleventyConfig.addPassthroughCopy("./assets/css/*.css");
-  eleventyConfig.addPassthroughCopy("./assets");
+  eleventyConfig.addPassthroughCopy("./archive/*.css");
+  eleventyConfig.addPassthroughCopy("./assets/fonts");
+  eleventyConfig.addPassthroughCopy("./assets/img");
+  eleventyConfig.addPassthroughCopy("./assets/video");
+  eleventyConfig.addPassthroughCopy("./assets/*.*");
+  eleventyConfig.addPassthroughCopy("./archive/media");
+
+  eleventyConfig.setBrowserSyncConfig({
+    files: "./assets/css/*.css",
+  });
 
   eleventyConfig.addShortcode("bandsAndColours", function () {
     const randomColourPairings = [

@@ -4,8 +4,12 @@
   "description": "Claws Of Saurtopia Noise festival 2023 // June 2 and June 3 in Leipzig.",
   "main": "index.html",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "dev": "npx @11ty/eleventy --watch"
+    "watch:sass": "npx sass assets/scss:_site/assets/css --watch",
+    "build:sass": "npx sass assets/scss:_site/assets/css",
+    "watch:tailwind": "tailwindcss -i assets/css/tailwind.css -o ./_site/assets/css/tailwind.css --watch",
+    "build:tailwind": "tailwindcss -i assets/css/tailwind.css -o ./_site/assets/css/tailwind.css --minify",
+    "build": "npx @11ty/eleventy & npm run build:sass & npm run build:tailwind",
+    "dev": "npx @11ty/eleventy --watch & npm run watch:sass & npm run watch:tailwind"
   },
   "repository": {
     "type": "git",
@@ -19,9 +23,11 @@
   },
   "homepage": "https://clawsofsaurtopia.glitch.me",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0"
+    "@11ty/eleventy": "^2.0.0",
+    "tailwindcss": "^3.3.2"
   },
   "dependencies": {
-    "@11ty/eleventy-plugin-webc": "^0.11.0"
+    "@11ty/eleventy-plugin-webc": "^0.11.0",
+    "sass": "^1.62.1"
   }
 }

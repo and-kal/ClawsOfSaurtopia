@@ -6,29 +6,30 @@
 
     <title>𝕮laws 𝕺f 𝕾aurtopia 𝕹oise 𝖋estival 2023</title>
 
-    <link rel="icon" type="image/png" href="/assets/favicon.ico" />
-    <link rel="author" href="/assets/humans.txt" />
+    <link rel="icon" type="image/png" href="./assets/favicon.ico" />
+    <link rel="author" href="./assets/humans.txt" />
 
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/tailwind.css" />
 
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/assets/apple-touch-icon.png"
+      href="./assets/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/assets/favicon-32x32.png"
+      href="./assets/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="/assets/favicon-16x16.png"
+      href="./assets/favicon-16x16.png"
     />
-    <link rel="manifest" href="/assets/site.webmanifest" />
+    <link rel="manifest" href="./assets/site.webmanifest" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
 
@@ -52,13 +53,14 @@
     />
   </head>
   <script type="application/ld+json"></script>
-  <body>
-    <div id="main-container">
+  
+  <body class="m-0 w-full p-4 box-border min-h-screen">
+    <div id="main-container" class="m-auto">
       {% renderTemplate "webc" %}
       <!-- <header-component></header-component> -->
       {% endrenderTemplate %}
 
-      <div id="content">
+      <div id="content" class="p-2 text-center">
         {{ content | safe }}
       </div>
 
