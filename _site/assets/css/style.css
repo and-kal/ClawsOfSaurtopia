@@ -351,31 +351,19 @@ template {
   display: none;
 }
 
-:root {
-  --black: #121212;
-  --white: #f8f6f6;
-  --primary: #985fae;
-  --secondary: #c1fdbe;
-  --fsz: calc(1.1em + 0.5vw);
-}
-
 html,
 body {
   position: relative;
   scroll-behavior: smooth;
-  font-size: var(--fsz);
-  line-height: calc(var(--fsz) * 1.75);
+  font-size: calc(0.9em + 0.5vw);
+  line-height: calc((0.9em + 0.5vw) * 1.75);
   font-family: "DOS";
   font-style: normal;
   font-weight: normal;
 }
 
-header {
-  padding: 1rem;
-}
-
 body {
-  color: var(--secondary);
+  color: #c1fdbe;
   background-image: url(/assets/img/bitartbotgenbg.png);
   background-repeat: repeat;
   background-size: 25%;
@@ -384,16 +372,13 @@ body #main-container {
   width: 90%;
   min-height: 90vh;
   max-width: 550px;
-  margin: auto;
-  color: var(--primary);
-  border: 3px groove var(--primary);
+  color: #985fae;
+  border: 3px groove #985fae;
   background-image: url("/assets/img/noise.png");
   background-repeat: repeat;
 }
 body #main-container #content {
-  padding: 1rem;
-  text-shadow: 1px 1px var(--black);
-  text-align: center;
+  text-shadow: 1px 1px #121212;
 }
 body #main-container #content video {
   width: 100%;
@@ -404,9 +389,9 @@ body #main-container #content .headline {
   font-family: "Runescape Fancy";
   font-size: 2.5rem;
   margin: unset;
-  border: 10px solid var(--white);
-  background-color: var(--white);
-  border-image: repeating-linear-gradient(45deg, var(--secondary), var(--secondary) 1%, var(--primary) 1%, var(--primary) 8%) 10;
+  border: 10px solid #f8f6f6;
+  background-color: #f8f6f6;
+  border-image: repeating-linear-gradient(45deg, #c1fdbe, #c1fdbe 1%, #985fae 1%, #985fae 8%) 10;
 }
 body #main-container #content #bands {
   display: flex;
@@ -421,11 +406,11 @@ body #main-container #content #bands .band_link {
   padding: 0.5rem 1rem;
   margin: 0.5rem auto;
   font-weight: bold;
-  box-shadow: 4px 4px 0 var(--black);
+  box-shadow: 4px 4px 0 #121212;
 }
 body #main-container #content #bands .band_bio {
   margin-top: 0.5rem;
-  line-height: calc(var(--fsz) * 1.25);
+  line-height: calc((0.9em + 0.5vw) * 1.25);
   text-align: left;
 }
 body #main-container #content #onStage {
@@ -434,12 +419,12 @@ body #main-container #content #onStage {
   text-decoration-style: double;
 }
 body #main-container #content .announcement {
-  color: var(--secondary);
-  background-color: var(--primary);
+  color: #c1fdbe;
+  background-color: #985fae;
   padding: 0.5rem;
   margin: 1rem auto;
   max-width: 65ch;
-  border: 2px dotted var(--black);
+  border: 2px dotted #121212;
 }
 
 /*# sourceMappingURL=style.css.map */

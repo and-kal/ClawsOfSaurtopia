@@ -56,21 +56,43 @@
   
   <body class="m-0 w-full p-4 box-border min-h-screen">
     <div id="main-container" class="m-auto">
-      {% renderTemplate "webc" %}
-      <header-component></header-component>
-      {% endrenderTemplate %}
+      <header class="text-base">
+  <nav class="w-full p-3 flex flex-row flex-nowrap justify-around">
+    <a href="/" class="p-1 bg-[#ee82ee] text-[#243175] border border-[#243175] skew-x-12">Noisefest-Warmup</a>
+    <a href="/workshops2023" class="p-1 bg-[#ee82ee] text-[#243175] border border-[#243175] -skew-y-12">Workshops</a>
+    <a href="/festival" class="p-1 bg-[#ee82ee] text-[#243175] border border-[#243175] -skew-x-12">Festival 2023</a>
+    <a href="/archive" class="p-1 bg-[#ee82ee] text-[#243175] border border-[#243175] skew-y-12">Archive</a>
+  </nav>
+</header>
+
+      
 
       <div id="content" class="p-2 text-center">
-        {{ content | safe }}
+        
+<ul>
+    <li>Gleeetch</li>
+    <li>Territorial Gobbing</li>
+    <li>Rundfunkorchestra</li>
+    <li>Klösse</li>
+    <li>It's Everyone Else</li>
+    <li>Lara A.</li>
+    <li>Nape Neck</li>
+    <li>Deeskalationskommando</li>
+    <li>Fiat X</li>
+    <li>Sathönay</li>
+    <li>Earthlogoff</li>
+    <li>Makroplastik</li>
+    <li>Cantenac Dagar</li>
+    <li>Heimat</li>
+    <li>Atol Atol Atol</li>
+</ul>
       </div>
 
-      {% renderTemplate "webc" %}
-      <footer-component></footer-component>
-      {% endrenderTemplate %}
+      <footer>
+</footer>
+      
     </div>
 
-    {% renderTemplate "webc" %}
     <!-- <copyright-component></copyright-component> -->
-    {% endrenderTemplate %}
   </body>
 </html>

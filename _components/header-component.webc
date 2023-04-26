@@ -1,7 +1,8 @@
-<header>
-  <nav>
-    <a href="/">2023</a>
-    <a href="/archive">Archive</a>
-    <a href="/shows">Shows</a>
+<header class="text-base">
+  <nav class="w-full p-3 flex flex-row flex-nowrap justify-around">
+    <a class="p-1 bg-[#ee82ee] text-[#243175] border border-[#243175] skew-x-12" href="/">Noisefest-Warmup</a>
+    <a class="p-1 bg-[#ee82ee] text-[#243175] border border-[#243175] -skew-y-12" href="/workshops2023">Workshops</a>
+    <!-- <a class="p-1 bg-[#ee82ee] text-[#243175] border border-[#243175] -skew-x-12" href="/festival">Festival 2023</a> -->
+    <a class="p-1 bg-[#ee82ee] text-[#243175] border border-[#243175] skew-y-12" href="/archive">Archive</a>
   </nav>
 </header>

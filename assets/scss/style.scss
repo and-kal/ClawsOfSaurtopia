@@ -1,3 +1,9 @@
+$black: #121212;
+$white: #f8f6f6;
+$primary: #985fae;
+$secondary: #c1fdbe;
+$fsz: calc(0.9em + 0.5vw);
+
 @font-face {
   font-family: "Drafting Mono";
   src: url("/assets/fonts/DraftingMono-Italic.woff2") format("woff2");
@@ -399,31 +405,19 @@ template {
   display: none;
 }
 
-:root {
-  --black: #121212;
-  --white: #f8f6f6;
-  --primary: #985fae;
-  --secondary: #c1fdbe;
-  --fsz: calc(1.1em + 0.5vw);
-}
-
 html,
 body {
   position: relative;
   scroll-behavior: smooth;
-  font-size: var(--fsz);
-  line-height: calc(var(--fsz) * 1.75);
+  font-size: $fsz;
+  line-height: calc($fsz * 1.75);
   font-family: "DOS";
   font-style: normal;
   font-weight: normal;
 }
 
-header {
-  padding: 1rem;
-}
-
 body {
-  color: var(--secondary);
+  color: $secondary;
   background-image: url(/assets/img/bitartbotgenbg.png);
   background-repeat: repeat;
   background-size: 25%;
@@ -431,15 +425,12 @@ body {
     width: 90%;
     min-height: 90vh;
     max-width: 550px;
-    margin: auto;
-    color: var(--primary);
-    border: 3px groove var(--primary);
+    color: $primary;
+    border: 3px groove $primary;
     background-image: url("/assets/img/noise.png");
     background-repeat: repeat;
     #content {
-      padding: 1rem;
-      text-shadow: 1px 1px var(--black);
-      text-align: center;
+      text-shadow: 1px 1px $black;
       video {
         width: 100%;
         height: auto;
@@ -450,14 +441,14 @@ body {
         font-family: "Runescape Fancy";
         font-size: 2.5rem;
         margin: unset;
-        border: 10px solid var(--white);
-        background-color: var(--white);
+        border: 10px solid $white;
+        background-color: $white;
         border-image: repeating-linear-gradient(
             45deg,
-            var(--secondary),
-            var(--secondary) 1%,
-            var(--primary) 1%,
-            var(--primary) 8%
+            $secondary,
+            $secondary 1%,
+            $primary 1%,
+            $primary 8%
           )
           10;
       }
@@ -474,12 +465,12 @@ body {
           padding: 0.5rem 1rem;
           margin: 0.5rem auto;
           font-weight: bold;
-          box-shadow: 4px 4px 0 var(--black);
+          box-shadow: 4px 4px 0 $black;
         }
 
         .band_bio {
           margin-top: 0.5rem;
-          line-height: calc(var(--fsz) * 1.25);
+          line-height: calc($fsz * 1.25);
           text-align: left;
         }
       }
@@ -489,12 +480,12 @@ body {
         text-decoration-style: double;
       }
       .announcement {
-        color: var(--secondary);
-        background-color: var(--primary);
+        color: $secondary;
+        background-color: $primary;
         padding: 0.5rem;
         margin: 1rem auto;
         max-width: 65ch;
-        border: 2px dotted var(--black);
+        border: 2px dotted $black;
       }
     }
   }

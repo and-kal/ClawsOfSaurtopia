@@ -34,22 +34,22 @@ module.exports = function (eleventyConfig) {
     const bands = [
       {
         name: "Pieuvre {Brln}",
-        bio: "Berlin trio patching together raw-no wavey guitar, a punk-funk like rhythm session and well-crafted vocal melodies.",
+        bio: "Berlin trio patching together raw, no wavey guitars, a punk-funk like rhythm section and well-crafted vocal melodies.",
         link: "https://kitchenlegrecordsberlin.bandcamp.com/album/pieuvre-hyperstretch",
       },
       {
         name: "Untel {Fr}",
-        bio: "The music Untel generates is an odd one, a threshold towards some sunken worlds, some would say, or the celebrating of an unknown deity's wedding",
+        bio: "The music Untel generates is an odd one - a threshold towards some sunken worlds, some would say, or the celebrating of an unknown deity's wedding.",
         link: "https://soundcloud.com/untel-music",
       },
       {
         name: "PLS {Fr}",
-        bio: "PLS is an electronic trio 100% machines. They propose a music at the crossroads of several styles between melodic synths, techno rhythms and saturated songs.",
+        bio: "PLS is an electronic trio of 100% machines. They propose a music at the crossroads of several styles - between melodic synths, techno rhythms and saturated songs.",
         link: "https://pls1312.bandcamp.com/album/merimna-atrata",
       },
       {
         name: "Fatique Suspecte {Lpz}",
-        bio: "A duo combining experimental breakcore/techno with ambient and noise undertones, equally matching for outdoor raves and the dirty basement in some diy punk squat.",
+        bio: "A duo combining experimental breakcore/techno with ambient and noise undertones, equally matching for outdoor raves and the dirty basement of some diy punk squat.",
         link: " https://soundcloud.com/fatiguesuspecte ",
       },
     ];
