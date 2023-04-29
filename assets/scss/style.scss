@@ -1,6 +1,6 @@
 $black: #121212;
 $white: #f8f6f6;
-$primary: #985fae;
+$primary: #811da8;
 $secondary: #c1fdbe;
 $fsz: calc(0.9em + 0.5vw);
 
@@ -421,6 +421,14 @@ body {
   background-image: url(/assets/img/bitartbotgenbg.png);
   background-repeat: repeat;
   background-size: 25%;
+  header {
+    a {
+      box-shadow: 5px 5px 0 #000;
+      &.active {
+        box-shadow: 0 0 10px 3px rgba(#ff0095, 1);
+      }
+    }
+  }
   #main-container {
     width: 90%;
     min-height: 90vh;
@@ -430,7 +438,9 @@ body {
     background-image: url("/assets/img/noise.png");
     background-repeat: repeat;
     #content {
-      text-shadow: 1px 1px $black;
+      #index {
+        text-shadow: 1px 1px $black;
+      }
       video {
         width: 100%;
         height: auto;

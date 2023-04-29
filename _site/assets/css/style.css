@@ -368,16 +368,22 @@ body {
   background-repeat: repeat;
   background-size: 25%;
 }
+body header a {
+  box-shadow: 5px 5px 0 #000;
+}
+body header a.active {
+  box-shadow: 0 0 10px 3px #ff0095;
+}
 body #main-container {
   width: 90%;
   min-height: 90vh;
   max-width: 550px;
-  color: #985fae;
-  border: 3px groove #985fae;
+  color: #811da8;
+  border: 3px groove #811da8;
   background-image: url("/assets/img/noise.png");
   background-repeat: repeat;
 }
-body #main-container #content {
+body #main-container #content #index {
   text-shadow: 1px 1px #121212;
 }
 body #main-container #content video {
@@ -391,7 +397,7 @@ body #main-container #content .headline {
   margin: unset;
   border: 10px solid #f8f6f6;
   background-color: #f8f6f6;
-  border-image: repeating-linear-gradient(45deg, #c1fdbe, #c1fdbe 1%, #985fae 1%, #985fae 8%) 10;
+  border-image: repeating-linear-gradient(45deg, #c1fdbe, #c1fdbe 1%, #811da8 1%, #811da8 8%) 10;
 }
 body #main-container #content #bands {
   display: flex;
@@ -420,7 +426,7 @@ body #main-container #content #onStage {
 }
 body #main-container #content .announcement {
   color: #c1fdbe;
-  background-color: #985fae;
+  background-color: #811da8;
   padding: 0.5rem;
   margin: 1rem auto;
   max-width: 65ch;
