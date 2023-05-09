@@ -368,10 +368,11 @@ body {
   background-repeat: repeat;
   background-size: 25%;
 }
-body header a {
+body header nav a {
   box-shadow: 5px 5px 0 #000;
+  text-align: center;
 }
-body header a.active {
+body header nav a.active {
   box-shadow: 0 0 10px 3px #ff0095;
 }
 body #main-container {
@@ -383,7 +384,7 @@ body #main-container {
   background-image: url("/assets/img/noise.png");
   background-repeat: repeat;
 }
-body #main-container #content #index {
+body #main-container #content #warmup {
   text-shadow: 1px 1px #121212;
 }
 body #main-container #content video {
@@ -394,7 +395,6 @@ body #main-container #content video {
 body #main-container #content .headline {
   font-family: "Runescape Fancy";
   font-size: 2.5rem;
-  margin: unset;
   border: 10px solid #f8f6f6;
   background-color: #f8f6f6;
   border-image: repeating-linear-gradient(45deg, #c1fdbe, #c1fdbe 1%, #811da8 1%, #811da8 8%) 10;

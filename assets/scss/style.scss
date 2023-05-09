@@ -422,12 +422,14 @@ body {
   background-repeat: repeat;
   background-size: 25%;
   header {
+    nav{
     a {
       box-shadow: 5px 5px 0 #000;
+      text-align: center;
       &.active {
         box-shadow: 0 0 10px 3px rgba(#ff0095, 1);
       }
-    }
+    }}
   }
   #main-container {
     width: 90%;
@@ -438,7 +440,7 @@ body {
     background-image: url("/assets/img/noise.png");
     background-repeat: repeat;
     #content {
-      #index {
+      #warmup {
         text-shadow: 1px 1px $black;
       }
       video {
@@ -450,7 +452,7 @@ body {
       .headline {
         font-family: "Runescape Fancy";
         font-size: 2.5rem;
-        margin: unset;
+        // margin: unset;
         border: 10px solid $white;
         background-color: $white;
         border-image: repeating-linear-gradient(

@@ -14,16 +14,21 @@ module.exports = function (eleventyConfig) {
     files: "./assets/css/*.css",
   });
 
-  eleventyConfig.addShortcode("bandsAndColours", function () {
+  eleventyConfig.addShortcode("bandsAndColours", function (roster) {
     const randomColourPairings = [
       ["#f9e07a", "blueviolet"],
+      ["fuchsia", "#34086d"],
+      ["#B506A5", "#DEFD17"],
       ["#631f8e", "yellow"],
+      ["#884198", "#68ECE8"],
       ["#cdd460", "blue"],
       ["#050f3b", "springgreen"],
-      ["fuchsia", "#34086d"],
+      ["#090494", "#23DA8B"],
+      ["#D632DB", "#0E091C"],
+      ["#C66035", "#0E0C00"],
     ];
 
-    const bands = [
+    const bandsWarmup = [
       {
         name: "Pieuvre {Brln}",
         bio: "Berlin trio patching together raw, no wavey guitars, a punk-funk like rhythm section and well-crafted vocal melodies.",
@@ -42,15 +47,30 @@ module.exports = function (eleventyConfig) {
       {
         name: "Fatique Suspecte {Lpz}",
         bio: "A duo combining experimental breakcore/techno with ambient and noise undertones, equally matching for outdoor raves and the dirty basement of some diy punk squat.",
-        link: " https://soundcloud.com/fatiguesuspecte ",
+        link: "https://soundcloud.com/fatiguesuspecte",
       },
     ];
+    const bandsFestival = [
+      {
+        name: "Atol Atol Atol {PL}",
+        bio: "island post-punk from the South of Poland",
+        link: "https://atolatolatol.bandcamp.com/album/koniec-sosu-tysi-ca-wysp",
+      },
+      {
+        name: "Fatique Suspecte {Lpz}",
+        bio: "experimental breakcore/techno combined with ambient and noise",
+        link: "https://soundcloud.com/fatiguesuspecte",
+      },
+    ];
+
+    const bands = roster === "warmup" ? bandsWarmup : bandsFestival;
 
     let htmlElement = "";
 
     bands.map((band, index) => {
       const currentColourPair =
         randomColourPairings[index % randomColourPairings.length];
+
       htmlElement += `<div
         class='band'
         style="color:${currentColourPair[0]};background-color:${currentColourPair[1]};border:3px groove ${currentColourPair[0]}">
