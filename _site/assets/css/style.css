@@ -364,9 +364,8 @@ body {
 
 body {
   color: #c1fdbe;
-  background-image: url(/assets/img/bitartbotgenbg.png);
+  background-image: url(/assets/img/bittexture.png);
   background-repeat: repeat;
-  background-size: 25%;
 }
 body header nav a {
   box-shadow: 5px 5px 0 #000;
