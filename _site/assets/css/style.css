@@ -372,7 +372,7 @@ body header nav a {
   text-align: center;
 }
 body header nav a.active {
-  box-shadow: 0 0 10px 3px #ff0095;
+  box-shadow: 0 0 10px 3px #4ff402;
 }
 body #main-container {
   width: 90%;
