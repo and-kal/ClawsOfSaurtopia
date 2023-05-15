@@ -52,14 +52,79 @@ module.exports = function (eleventyConfig) {
     ];
     const bandsFestival = [
       {
-        name: "Atol Atol Atol {PL}",
-        bio: "island post-punk from the South of Poland",
-        link: "https://atolatolatol.bandcamp.com/album/koniec-sosu-tysi-ca-wysp",
-      },
-      {
         name: "Fatique Suspecte {Lpz}",
         bio: "experimental breakcore/techno combined with ambient and noise",
         link: "https://soundcloud.com/fatiguesuspecte",
+      },
+      {
+        name: "Klöße {uk/de}",
+        bio: "stumbling beats & eerie invocations",
+        link: "",
+      },
+      {
+        name: "Gleetch Noise Show {lpz}",
+        bio: "games with amplified toys",
+        link: "",
+      },
+      {
+        name: "Rundfunkorchestra {de}",
+        bio: "electro-acoustic complications",
+        link: "",
+      },
+      {
+        name: "Teritorrial Gobbing {uk}",
+        bio: "performative cut-up nonsense",
+        link: "",
+      },
+      {
+        name: "It’s Everyone Else {slov/lpz)",
+        bio: "oppressive industrial beats",
+        link: "",
+      },
+      {
+        name: "Gorz {bln}",
+        bio: "demonic futurist r&b",
+        link: "",
+      },
+      {
+        name: "Nape Neck {uk}",
+        bio: "punk funk chants",
+        link: "",
+      },
+      {
+        name: "Deeskalationskommando {lpz}",
+        bio: "light-controlled experimentalism",
+        link: "",
+      },
+      {
+        name: "Makroplastik {de}",
+        bio: "glitchy broken beats",
+        link: "",
+      },
+      {
+        name: "Sathönay {fr}",
+        bio: "mediterranean psych folk",
+        link: "",
+      },
+      {
+        name: "Earth Logoff {de}",
+        bio: "minimalist drum ‘n’ noise",
+        link: "",
+      },
+      {
+        name: "Fiat X Multipla {de}",
+        bio: "8bit harsh noise",
+        link: "",
+      },
+      {
+        name: "Heimat {fr}",
+        bio: "fake wave franco-allemande",
+        link: "",
+      },
+      {
+        name: "Atol Atol Atol {PL}",
+        bio: "danceable spasmodic delight",
+        link: "https://atolatolatol.bandcamp.com/album/koniec-sosu-tysi-ca-wysp",
       },
     ];
 
