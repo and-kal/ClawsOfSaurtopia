@@ -11,16 +11,15 @@ at ZXRX [Leipzig]
 - Rundfunkorchestra
 - Klösse
 - It's Everyone Else
-- Lara A.
+- Gorz
 - Nape Neck
 
 #### Saturday, 3 June 2023:
 - Deeskalationskommando
-- Fiat X
+- Fiat X Multipla
 - Sathönay
 - Earthlogoff
 - Makroplastik
-- Cantenac Dagar
 - Heimat
 - Atol Atol Atol
 

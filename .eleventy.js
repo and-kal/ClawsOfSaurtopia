@@ -25,6 +25,8 @@ module.exports = function (eleventyConfig) {
       ["#050f3b", "springgreen"],
       ["#090494", "#23DA8B"],
       ["#D632DB", "#0E091C"],
+      ["#74BE2E", "#1F1119"],
+      ["#E89026", "#421E89"],
       ["#C66035", "#0E0C00"],
     ];
 
@@ -52,74 +54,69 @@ module.exports = function (eleventyConfig) {
     ];
     const bandsFestival = [
       {
-        name: "Fatique Suspecte {Lpz}",
-        bio: "experimental breakcore/techno combined with ambient and noise",
-        link: "https://soundcloud.com/fatiguesuspecte",
-      },
-      {
         name: "Klöße {uk/de}",
         bio: "stumbling beats & eerie invocations",
-        link: "",
+        link: "https://kloosuh.bandcamp.com/album/kl-e",
       },
       {
         name: "Gleetch Noise Show {lpz}",
         bio: "games with amplified toys",
-        link: "",
+        link: "https://soundcloud.com/intergalacticatadventures",
       },
       {
         name: "Rundfunkorchestra {de}",
         bio: "electro-acoustic complications",
-        link: "",
+        link: "https://sonicimpulses.org/rundfunkorchester/",
       },
       {
-        name: "Teritorrial Gobbing {uk}",
+        name: "Territorial Gobbing {uk}",
         bio: "performative cut-up nonsense",
-        link: "",
+        link: "https://territorialgobbing.bandcamp.com",
       },
       {
         name: "It’s Everyone Else {slov/lpz)",
         bio: "oppressive industrial beats",
-        link: "",
+        link: "https://itseveryoneelse.bandcamp.com",
       },
       {
         name: "Gorz {bln}",
         bio: "demonic futurist r&b",
-        link: "",
+        link: "https://lara-alarcon.bandcamp.com/",
       },
       {
         name: "Nape Neck {uk}",
         bio: "punk funk chants",
-        link: "",
+        link: "https://napeneck.bandcamp.com",
       },
       {
         name: "Deeskalationskommando {lpz}",
         bio: "light-controlled experimentalism",
-        link: "",
+        link: "https://soundcloud.com/inushini/deeskalationskommoando",
       },
       {
         name: "Makroplastik {de}",
         bio: "glitchy broken beats",
-        link: "",
+        link: "https://makroplastik.bandcamp.com/album/a-b-r-a-z-e-n",
       },
       {
         name: "Sathönay {fr}",
         bio: "mediterranean psych folk",
-        link: "",
+        link: "https://sathonay.bandcamp.com",
       },
       {
         name: "Earth Logoff {de}",
         bio: "minimalist drum ‘n’ noise",
-        link: "",
+        link: "https://kitchenlegrecordsberlin.bandcamp.com/album/earthlogoff-fungym",
       },
       {
         name: "Fiat X Multipla {de}",
         bio: "8bit harsh noise",
-        link: "",
+        link: "#",
       },
       {
         name: "Heimat {fr}",
         bio: "fake wave franco-allemande",
-        link: "",
+        link: "https://meineheimat.bandcamp.com/ ",
       },
       {
         name: "Atol Atol Atol {PL}",
