@@ -383,7 +383,8 @@ body #main-container {
   background-image: url("/assets/img/noise.png");
   background-repeat: repeat;
 }
-body #main-container #content #warmup {
+body #main-container #content #warmup,
+body #main-container #content #festival {
   text-shadow: 1px 1px #121212;
 }
 body #main-container #content video {
