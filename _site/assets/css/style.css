@@ -384,7 +384,7 @@ body #main-container {
   background-repeat: repeat;
 }
 body #main-container #content #warmup,
-body #main-container #content #festival {
+body #main-container #content #festival ~ div {
   text-shadow: 1px 1px #121212;
 }
 body #main-container #content video {
