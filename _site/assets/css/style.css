@@ -417,7 +417,7 @@ body #main-container #content #bands .band_link {
 body #main-container #content #bands .band_bio {
   margin-top: 0.5rem;
   line-height: calc((0.9em + 0.5vw) * 1.25);
-  text-align: left;
+  text-align: center;
 }
 body #main-container #content #onStage {
   font-size: 1.5rem;
@@ -431,6 +431,15 @@ body #main-container #content .announcement {
   margin: 1rem auto;
   max-width: 65ch;
   border: 2px dotted #121212;
+}
+body #main-container #content .jagged-rule-dark {
+  border: none !important;
+  height: 10px;
+  background: linear-gradient(-135deg, transparent 5px, transparent 0) 0 5px, linear-gradient(135deg, transparent 5px, #333 0) 0 5px;
+  background-color: transparent;
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  background-size: 10px 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

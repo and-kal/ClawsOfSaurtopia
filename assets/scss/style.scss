@@ -485,7 +485,7 @@ body {
         .band_bio {
           margin-top: 0.5rem;
           line-height: calc($fsz * 1.25);
-          text-align: left;
+          text-align: center;
         }
       }
       #onStage {
@@ -500,6 +500,17 @@ body {
         margin: 1rem auto;
         max-width: 65ch;
         border: 2px dotted $black;
+      }
+      .jagged-rule-dark {
+        border: none !important;
+        height: 10px;
+        background: linear-gradient(-135deg, transparent 5px, transparent 0) 0
+            5px,
+          linear-gradient(135deg, transparent 5px, #333 0) 0 5px;
+        background-color: transparent;
+        background-position: left bottom;
+        background-repeat: repeat-x;
+        background-size: 10px 10px;
       }
     }
   }

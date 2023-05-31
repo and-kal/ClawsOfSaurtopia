@@ -125,7 +125,7 @@ module.exports = function (eleventyConfig) {
       {
         name: "Fiat X Multipla {de}",
         bio: "8bit harsh noise",
-        link: "#",
+        link: "https://www.youtube.com/watch?v=VPpzPyksnJg",
         time: "12:00am-12:45am",
       },
       {
