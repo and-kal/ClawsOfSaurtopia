@@ -148,7 +148,15 @@ module.exports = function (eleventyConfig) {
       },
     ];
 
-    const bands = roster === "warmup" ? bandsWarmup : (roster === "festivalFriday" ? bandsFestivalFriday : bandsFestivalSaturday);
+    let bands;
+
+    if (roster === "warmup") {
+      bands = bandsWarmup;
+    } else if (roster === "festivalFriday") {
+      bands = bandsFestivalFriday;
+    } else if (roster === "festivalSaturday") {
+      bands = bandsFestivalSaturday;
+    };
 
     let htmlElement = "";
 
