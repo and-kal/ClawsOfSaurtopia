@@ -377,7 +377,7 @@ body {
 }
 
 body {
-  color: #60008b;
+  color: #00ff68;
   background-image: url(/assets/img/bittexture.png);
   background-repeat: repeat;
 }
@@ -388,12 +388,15 @@ body header nav a {
 body header nav a.active {
   box-shadow: 0 0 0 3px #4ff402;
 }
+body #index .funny-icons {
+  font-family: "Cairo";
+}
 body #main-container {
   width: 90%;
   min-height: 90vh;
   max-width: 550px;
-  color: #00ff68;
-  border: 3px groove #00ff68;
+  color: #60008b;
+  border: 3px groove #60008b;
   background-image: url("/assets/img/noise.png");
   background-repeat: repeat;
 }
@@ -411,7 +414,7 @@ body #main-container #content .headline {
   font-size: 2.5rem;
   border: 10px solid #f8f6f6;
   background-color: #f8f6f6;
-  border-image: repeating-linear-gradient(45deg, #60008b, #60008b 1%, #00ff68 1%, #00ff68 8%) 10;
+  border-image: repeating-linear-gradient(45deg, #00ff68, #00ff68 1%, #60008b 1%, #60008b 8%) 10;
 }
 body #main-container #content #bands {
   display: flex;
@@ -439,8 +442,8 @@ body #main-container #content #onStage {
   text-decoration-style: double;
 }
 body #main-container #content .announcement {
-  color: #60008b;
-  background-color: #00ff68;
+  color: #00ff68;
+  background-color: #60008b;
   padding: 0.5rem;
   margin: 1rem auto;
   max-width: 65ch;
