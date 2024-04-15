@@ -1,8 +1,21 @@
 $black: #121212;
 $white: #f8f6f6;
-$primary: #811da8;
-$secondary: #c1fdbe;
+$primary: #60008b;
+$secondary: #00ff68;
 $fsz: calc(0.9em + 0.5vw);
+
+@font-face {
+  font-family: "Steps";
+  src: url("/assets/fonts/Steps-Mono.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Cairo";
+  src: url("/assets/fonts/Cairo.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 
 @font-face {
   font-family: "Drafting Mono";
@@ -254,6 +267,7 @@ button,
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
+  appearance: button;
 }
 
 /**
@@ -346,6 +360,7 @@ textarea {
 
 [type="search"] {
   -webkit-appearance: textfield; /* 1 */
+  appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
 
@@ -411,7 +426,7 @@ body {
   scroll-behavior: smooth;
   font-size: $fsz;
   line-height: calc($fsz * 1.75);
-  font-family: "DOS";
+  font-family: "Steps";
   font-style: normal;
   font-weight: normal;
 }
@@ -430,6 +445,11 @@ body {
           box-shadow: 0 0 0 3px rgba(#4ff402, 1);
         }
       }
+    }
+  }
+  #index {
+    .funny-icons {
+      font-family: "Cairo";
     }
   }
   #main-container {

@@ -16,151 +16,131 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode("bandsAndColours", function (roster) {
     const randomColourPairings = [
-      ["#E89026", "#421E89"],
-      ["#D632DB", "#0E091C"],
-      ["#74BE2E", "#1F1119"],
-      ["fuchsia", "#34086d"],
-      ["#C66035", "#0E0C00"],
-      ["#B506A5", "#DEFD17"],
-      ["#884198", "#68ECE8"],
-      ["#090494", "#23DA8B"],
-      ["#cdd460", "blue"],
-      ["#f9e07a", "blueviolet"],
-      ["#050f3b", "springgreen"],
-      ["#631f8e", "yellow"],
+      ["#F12E2F", "#1B0A0B"],
+      ["#D86CB4", "#001651"],
+      ["#824F5A", "#FEF2BD"],
+      ["#D07E35", "#102437"],
+      ["#BDA8C5", "#560A52"],
+      ["#3577AE", "#FDFECB"],
+      ["#F69423", "#181578"],
+      ["#32CBE9", "#301951"],
+      ["#92ECCA", "#110A02"],
+      ["#373B52", "#C5EF80"],
+      ["#A8E004", "#0506A7"],
     ];
 
-    const bandsWarmup = [
+    const bandsWarmup1 = [
       {
-        name: "Pieuvre {Brln}",
-        bio: "Berlin trio patching together raw, no wavey guitars, a punk-funk like rhythm section and well-crafted vocal melodies.",
-        link: "https://kitchenlegrecordsberlin.bandcamp.com/album/pieuvre-hyperstretch",
+        name: "Danse Musique Rhône-Alpes",
+        bio: "...",
+        link: "https://dmra.bandcamp.com",
       },
       {
-        name: "Untel {Fr}",
-        bio: "The music Untel generates is an odd one - a threshold towards some sunken worlds, some would say, or the celebrating of an unknown deity's wedding.",
-        link: "https://soundcloud.com/untel-music",
-      },
-      {
-        name: "PLS {Fr}",
-        bio: "PLS is an electronic trio of 100% machines. They propose a music at the crossroads of several styles - between melodic synths, techno rhythms and saturated songs.",
-        link: "https://pls1312.bandcamp.com/album/merimna-atrata",
-      },
-      {
-        name: "Fatique Suspecte {Lpz}",
-        bio: "A duo combining experimental breakcore/techno with ambient and noise undertones, equally matching for outdoor raves and the dirty basement of some diy punk squat.",
-        link: "https://soundcloud.com/fatiguesuspecte",
+        name: "BZMC fka. Black Zone Myth Chant",
+        bio: "...",
+        link: "https://blackzonemythchant.bandcamp.com",
       },
     ];
-    const bandsFestivalFriday = [
+    const bandsWarmup2 = [
       {
-        name: "Klöße {uk/de}",
-        bio: "stumbling beats & eerie invocations",
-        link: "https://kloosuh.bandcamp.com/album/kl-e",
-        time: "9:00pm-9:45pm",
+        name: "Atol Atol Atol",
+        bio: "...",
+        link: "https://ubac.bandcamp.com/album/koniec-sosu-tysi-ca-wysp",
       },
       {
-        name: "Gleetch Noise Show {lpz}",
-        bio: "games with amplified toys",
-        link: "https://soundcloud.com/intergalacticatadventures",
-        time: "9:45pm-10:30pm",
+        name: "Nape Neck",
+        bio: "...",
+        link: "https://napeneck.bandcamp.com/",
       },
       {
-        name: "Rundfunkorchestra {de}",
-        bio: "electro-acoustic complications",
-        link: "https://sonicimpulses.org/rundfunkorchester/",
-        time: "10:30pm-11:15pm",
+        name: "Ilia Gorowitz",
+        bio: "...",
+        link: "https://iliagorovitz.bandcamp.com",
       },
       {
-        name: "Territorial Gobbing {uk}",
-        bio: "performative cut-up nonsense",
-        link: "https://territorialgobbing.bandcamp.com",
-        time: "11:15pm-12:00am",
-      },
-      {
-        name: "It’s Everyone Else {slov/lpz)",
-        bio: "oppressive industrial beats",
-        link: "https://itseveryoneelse.bandcamp.com",
-        time: "12:00am-12:45am",
-      },
-      {
-        name: "Gorz {bln}",
-        bio: "demonic futurist r&b",
-        link: "https://lara-alarcon.bandcamp.com/",
-        time: "12:45am-1:30am",
-      },
-      {
-        name: "Nape Neck {uk}",
-        bio: "punk funk chants",
-        link: "https://napeneck.bandcamp.com",
-        time: "1:30am-2:15am",
+        name: "Andarta",
+        bio: "...",
+        link: "https://andartagroup.bandcamp.com",
       },
     ];
-
-    const bandsFestivalSaturday = [
+    const bandsFestival = [
       {
-        name: "Deeskalationskommando {lpz}",
-        bio: "light-controlled experimentalism",
-        link: "https://soundcloud.com/inushini/deeskalationskommoando",
-        time: "9:00pm-9:45pm",
+        name: "Munka:Weber",
+        bio: "...",
+        link: "https://www.youtube.com/watch?v=FMub_RS1yxc",
       },
       {
-        name: "Makroplastik {de}",
-        bio: "glitchy broken beats",
-        link: "https://makroplastik.bandcamp.com/album/a-b-r-a-z-e-n",
-        time: "9:45pm-10:30pm",
+        name: "Sheik Anorak",
+        bio: "...",
+        link: "https://gafferrecords.bandcamp.com/album/gbg2",
       },
       {
-        name: "Sathönay {fr}",
-        bio: "mediterranean psych folk",
-        link: "https://sathonay.bandcamp.com",
-        time: "10:30pm-11:15pm",
+        name: "TRRMA'",
+        bio: "...",
+        link: "https://www.youtube.com/watch?v=uprVt6G7p5U",
       },
       {
-        name: "Earth Logoff {de}",
-        bio: "minimalist drum ‘n’ noise",
-        link: "https://kitchenlegrecordsberlin.bandcamp.com/album/earthlogoff-fungym",
-        time: "11:15pm-12:00am",
+        name: "Viola Yip",
+        bio: "...",
+        link: "https://www.youtube.com/watch?v=I_3ZA_AiZtQ",
       },
       {
-        name: "Fiat X Multipla {de}",
-        bio: "8bit harsh noise",
-        link: "https://www.youtube.com/watch?v=VPpzPyksnJg",
-        time: "12:00am-12:45am",
+        name: "Schleu",
+        bio: "...",
+        link: "https://www.youtube.com/watch?v=o5Ilts-0Dxs",
       },
       {
-        name: "Heimat {fr}",
-        bio: "fake wave franco-allemande",
-        link: "https://meineheimat.bandcamp.com/ ",
-        time: "12:45am-1:30am",
+        name: "Cuntroaches",
+        bio: "...",
+        link: "https://www.youtube.com/watch?v=KQ90sqzcunU",
       },
       {
-        name: "Atol Atol Atol {PL}",
-        bio: "danceable spasmodic delight",
-        link: "https://atolatolatol.bandcamp.com/album/koniec-sosu-tysi-ca-wysp",
-        time: "1:30am-2:15am",
+        name: "Miss Tetanos",
+        bio: "...",
+        link: "https://www.youtube.com/watch?v=mRw7jDelmc0",
       },
       {
-        name: "Fatique Suspecte {Lpz}",
-        bio: "A duo combining experimental breakcore/techno with ambient and noise undertones, equally matching for outdoor raves and the dirty basement of some diy punk squat.",
-        link: "https://soundcloud.com/fatiguesuspecte",
-        time: "2:15am-open end",
+        name: "P≡B",
+        bio: "...",
+        link: "https://www.youtube.com/watch?v=a69ZprY4M_8",
+      },
+      {
+        name: "Jan Van Angelopoulos & Fotis Siotas",
+        bio: "...",
+        link: "https://www.youtube.com/watch?v=2K0zk4BRN_Y",
+      },
+      {
+        name: "weird ugly fish / keista bjauri žuvis",
+        bio: "...",
+        link: "https://weirduglyfish.bandcamp.com/album/legs-are-for-swimming",
+      },
+      {
+        name: "Ignaz Schick",
+        bio: "...",
+        link: "https://www.youtube.com/watch?v=sfeNyvmz7JY",
+      },
+      {
+        name: "GRMMSK",
+        bio: "...",
+        link: "https://www.youtube.com/watch?v=3lkv_UjPJC0",
       },
     ];
 
-    let bands;
-
-    if (roster === "warmup") {
-      bands = bandsWarmup;
-    } else if (roster === "festivalFriday") {
-      bands = bandsFestivalFriday;
-    } else if (roster === "festivalSaturday") {
-      bands = bandsFestivalSaturday;
+    const bands = () => {
+      switch (roster) {
+        case "warmup1":
+          return bandsWarmup1;
+        case "warmup2":
+          return bandsWarmup2;
+        case "festival":
+          return bandsFestival;
+        default:
+          break;
+      }
     };
 
     let htmlElement = "";
-
-    bands.map((band, index) => {
+    bands().map((band, index) => {
       const currentColourPair =
         randomColourPairings[index % randomColourPairings.length];
 
