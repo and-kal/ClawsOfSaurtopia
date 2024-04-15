@@ -1,4 +1,16 @@
 @font-face {
+  font-family: "Steps";
+  src: url("/assets/fonts/Steps-Mono.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Cairo";
+  src: url("/assets/fonts/Cairo.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
   font-family: "Drafting Mono";
   src: url("/assets/fonts/DraftingMono-Italic.woff2") format("woff2");
   font-style: italic;
@@ -217,6 +229,7 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  appearance: button;
 }
 
 /**
@@ -300,6 +313,7 @@ textarea {
    */
 [type=search] {
   -webkit-appearance: textfield; /* 1 */
+  appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
 
@@ -357,13 +371,13 @@ body {
   scroll-behavior: smooth;
   font-size: calc(0.9em + 0.5vw);
   line-height: calc((0.9em + 0.5vw) * 1.75);
-  font-family: "DOS";
+  font-family: "Steps";
   font-style: normal;
   font-weight: normal;
 }
 
 body {
-  color: #c1fdbe;
+  color: #60008b;
   background-image: url(/assets/img/bittexture.png);
   background-repeat: repeat;
 }
@@ -378,8 +392,8 @@ body #main-container {
   width: 90%;
   min-height: 90vh;
   max-width: 550px;
-  color: #811da8;
-  border: 3px groove #811da8;
+  color: #00ff68;
+  border: 3px groove #00ff68;
   background-image: url("/assets/img/noise.png");
   background-repeat: repeat;
 }
@@ -397,7 +411,7 @@ body #main-container #content .headline {
   font-size: 2.5rem;
   border: 10px solid #f8f6f6;
   background-color: #f8f6f6;
-  border-image: repeating-linear-gradient(45deg, #c1fdbe, #c1fdbe 1%, #811da8 1%, #811da8 8%) 10;
+  border-image: repeating-linear-gradient(45deg, #60008b, #60008b 1%, #00ff68 1%, #00ff68 8%) 10;
 }
 body #main-container #content #bands {
   display: flex;
@@ -425,8 +439,8 @@ body #main-container #content #onStage {
   text-decoration-style: double;
 }
 body #main-container #content .announcement {
-  color: #c1fdbe;
-  background-color: #811da8;
+  color: #60008b;
+  background-color: #00ff68;
   padding: 0.5rem;
   margin: 1rem auto;
   max-width: 65ch;
