@@ -388,7 +388,7 @@ body header nav a {
 body header nav a.active {
   box-shadow: 0 0 0 3px #4ff402;
 }
-body #index .funny-icons {
+body .funny-icons {
   font-family: "Cairo";
 }
 body #main-container {
