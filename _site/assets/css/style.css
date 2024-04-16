@@ -377,7 +377,7 @@ body {
 }
 
 body {
-  color: #00ff68;
+  color: #ffd1d1;
   background-image: url(/assets/img/bittexture.png);
   background-repeat: repeat;
 }
@@ -395,8 +395,8 @@ body #main-container {
   width: 90%;
   min-height: 90vh;
   max-width: 550px;
-  color: #60008b;
-  border: 3px groove #60008b;
+  color: #1559ba;
+  border: 3px groove #1559ba;
   background-image: url("/assets/img/noise.png");
   background-repeat: repeat;
 }
@@ -414,7 +414,7 @@ body #main-container #content .headline {
   font-size: 2.5rem;
   border: 10px solid #f8f6f6;
   background-color: #f8f6f6;
-  border-image: repeating-linear-gradient(45deg, #00ff68, #00ff68 1%, #60008b 1%, #60008b 8%) 10;
+  border-image: repeating-linear-gradient(45deg, #ffd1d1, #ffd1d1 1%, #1559ba 1%, #1559ba 8%) 10;
 }
 body #main-container #content #bands {
   display: flex;
@@ -442,8 +442,8 @@ body #main-container #content #onStage {
   text-decoration-style: double;
 }
 body #main-container #content .announcement {
-  color: #00ff68;
-  background-color: #60008b;
+  color: #ffd1d1;
+  background-color: #1559ba;
   padding: 0.5rem;
   margin: 1rem auto;
   max-width: 65ch;
