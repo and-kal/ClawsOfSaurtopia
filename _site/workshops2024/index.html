@@ -32,6 +32,7 @@
 <script type="application/ld+json"></script>
 <script src='./assets/js/hydra-synth.js'></script>
 <script>
+  window.onload = function () {
     const hydraContainer = document.getElementById("hydraContainer");
     const hydra = new Hydra({ canvas: hydraContainer, detectAudio: false })
     noise(1, 1)
@@ -48,6 +49,7 @@
     render(o0);
     bpm = 10;
     speed = 0.4;
+  }
 </script>
 
 <body class="m-0 w-full p-4 box-border min-h-screen">
@@ -61,6 +63,11 @@
     >
     <a
       class=" whitespace-nowrap p-1 bg-[#A8E004] text-[#0506A7] border border-[#0506A7]"
+      href="/warmup"
+      >Warmup</a
+    >
+    <a
+      class=" whitespace-nowrap p-1 bg-[#A8E004] text-[#0506A7] border border-[#0506A7]"
       href="/festival"
       >Festival 2024</a
     >
@@ -68,11 +75,6 @@
       class="active whitespace-nowrap p-1 bg-[#A8E004] text-[#0506A7] border border-[#0506A7]"
       href="/workshops2024"
       >Workshops</a
-    >
-    <a
-      class=" whitespace-nowrap p-1 bg-[#A8E004] text-[#0506A7] border border-[#0506A7]"
-      href="/warmup"
-      >Warmup</a
     >
     <!-- <a class=" whitespace-nowrap p-1 bg-[#A8E004] text-[#0506A7] border border-[#0506A7]" href="/archive">Archive</a> -->
     <a></a>
