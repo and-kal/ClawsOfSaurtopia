@@ -158,12 +158,13 @@ module.exports = function (eleventyConfig) {
           ${band.name}
         </a>
         ${
-          band.bio &&
-          `<div class='band_bio'>
+          band.bio
+            ? `<div class='band_bio'>
           ${band.bio}
         </div>`
+            : ""
         }
-        ${band.time && `<div class="">${band.time}</div>`}
+        ${band.time ? `<div class="">${band.time}</div>` : ""}
       </div>
     `;
     });
