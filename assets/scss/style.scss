@@ -60,6 +60,18 @@ $fsz: calc(0.9em + 0.5vw);
 }
 
 @font-face {
+  font-family: "Outrunner_Outline";
+  src: url("/assets/fonts/Outrunner_Outline.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Outrunner_Inline";
+  src: url("/assets/fonts/Outrunner_Inline.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
   font-family: "DOS";
   src: url("/assets/fonts/DosStartDefaultFont.ttf") format("truetype");
   font-style: normal;
@@ -433,9 +445,106 @@ body {
 
 body {
   color: $secondary;
-  background-image: url(/assets/img/bittexture.png);
-  background-repeat: repeat;
-  // background-size: 25%;
+  background: -webkit-linear-gradient(
+    left,
+    #f12e2f,
+    #1b0a0b,
+    #d86cb4,
+    #001651,
+    #824f5a,
+    #fef2bd,
+    #d07e35,
+    #102437,
+    #bda8c5,
+    #560a52,
+    #3577ae,
+    #fdfecb,
+    #f69423,
+    #181578,
+    #32cbe9,
+    #301951,
+    #92ecca,
+    #110a02,
+    #373b52,
+    #c5ef80,
+    #a8e004
+  );
+  background: -o-linear-gradient(
+    right,
+    #f12e2f,
+    #1b0a0b,
+    #d86cb4,
+    #001651,
+    #824f5a,
+    #fef2bd,
+    #d07e35,
+    #102437,
+    #bda8c5,
+    #560a52,
+    #3577ae,
+    #fdfecb,
+    #f69423,
+    #181578,
+    #32cbe9,
+    #301951,
+    #92ecca,
+    #110a02,
+    #373b52,
+    #c5ef80,
+    #a8e004
+  );
+  background: -moz-linear-gradient(
+    right,
+    #f12e2f,
+    #1b0a0b,
+    #d86cb4,
+    #001651,
+    #824f5a,
+    #fef2bd,
+    #d07e35,
+    #102437,
+    #bda8c5,
+    #560a52,
+    #3577ae,
+    #fdfecb,
+    #f69423,
+    #181578,
+    #32cbe9,
+    #301951,
+    #92ecca,
+    #110a02,
+    #373b52,
+    #c5ef80,
+    #a8e004
+  );
+  background: linear-gradient(
+    to right,
+    #f12e2f,
+    #1b0a0b,
+    #d86cb4,
+    #001651,
+    #824f5a,
+    #fef2bd,
+    #d07e35,
+    #102437,
+    #bda8c5,
+    #560a52,
+    #3577ae,
+    #fdfecb,
+    #f69423,
+    #181578,
+    #32cbe9,
+    #301951,
+    #92ecca,
+    #110a02,
+    #373b52,
+    #c5ef80,
+    #a8e004
+  );
+  background-size: 50% 50%;
+  -webkit-animation: gradientBG 30s infinite;
+  animation: gradientBG 30s infinite;
+
   header {
     nav {
       a {
@@ -470,7 +579,7 @@ body {
       }
 
       .headline {
-        font-family: "Runescape Fancy";
+        font-family: "Outrunner_Outline";
         font-size: 2.5rem;
         // margin: unset;
         border: 10px solid $white;
@@ -531,5 +640,28 @@ body {
         background-size: 10px 10px;
       }
     }
+  }
+}
+
+@-webkit-keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }

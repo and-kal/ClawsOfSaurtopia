@@ -47,6 +47,18 @@
   font-weight: normal;
 }
 @font-face {
+  font-family: "Outrunner_Outline";
+  src: url("/assets/fonts/Outrunner_Outline.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Outrunner_Inline";
+  src: url("/assets/fonts/Outrunner_Inline.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
   font-family: "DOS";
   src: url("/assets/fonts/DosStartDefaultFont.ttf") format("truetype");
   font-style: normal;
@@ -378,8 +390,13 @@ body {
 
 body {
   color: #ffd1d1;
-  background-image: url(/assets/img/bittexture.png);
-  background-repeat: repeat;
+  background: -webkit-linear-gradient(left, #f12e2f, #1b0a0b, #d86cb4, #001651, #824f5a, #fef2bd, #d07e35, #102437, #bda8c5, #560a52, #3577ae, #fdfecb, #f69423, #181578, #32cbe9, #301951, #92ecca, #110a02, #373b52, #c5ef80, #a8e004);
+  background: -o-linear-gradient(right, #f12e2f, #1b0a0b, #d86cb4, #001651, #824f5a, #fef2bd, #d07e35, #102437, #bda8c5, #560a52, #3577ae, #fdfecb, #f69423, #181578, #32cbe9, #301951, #92ecca, #110a02, #373b52, #c5ef80, #a8e004);
+  background: -moz-linear-gradient(right, #f12e2f, #1b0a0b, #d86cb4, #001651, #824f5a, #fef2bd, #d07e35, #102437, #bda8c5, #560a52, #3577ae, #fdfecb, #f69423, #181578, #32cbe9, #301951, #92ecca, #110a02, #373b52, #c5ef80, #a8e004);
+  background: linear-gradient(to right, #f12e2f, #1b0a0b, #d86cb4, #001651, #824f5a, #fef2bd, #d07e35, #102437, #bda8c5, #560a52, #3577ae, #fdfecb, #f69423, #181578, #32cbe9, #301951, #92ecca, #110a02, #373b52, #c5ef80, #a8e004);
+  background-size: 50% 50%;
+  -webkit-animation: gradientBG 30s infinite;
+  animation: gradientBG 30s infinite;
 }
 body header nav a {
   box-shadow: 5px 5px 0 #000;
@@ -410,7 +427,7 @@ body #main-container #content video {
   margin: 1rem 0;
 }
 body #main-container #content .headline {
-  font-family: "Runescape Fancy";
+  font-family: "Outrunner_Outline";
   font-size: 2.5rem;
   border: 10px solid #f8f6f6;
   background-color: #f8f6f6;
@@ -457,6 +474,29 @@ body #main-container #content .jagged-rule-dark {
   background-position: left bottom;
   background-repeat: repeat-x;
   background-size: 10px 10px;
+}
+
+@-webkit-keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

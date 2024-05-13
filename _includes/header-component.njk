@@ -1,22 +1,26 @@
 <header class="text-base">
   <nav class="w-full p-3 flex flex-row flex-wrap justify-around">
     <a
-      class="{{ 'active' if page.fileSlug == '' }} whitespace-nowrap p-1 bg-[#A8E004] text-[#0506A7] border border-[#0506A7] skew-x-12 skew-y-12"
+      class="{{ 'active' if page.fileSlug == '' }} whitespace-nowrap p-1 bg-[#A8E004] text-[#0506A7] border border-[#0506A7]"
       href="/"
       >Home</a
     >
     <a
-      class="{{ 'active' if '/festival' in page.url }} whitespace-nowrap p-1 bg-[#A8E004] text-[#0506A7] border border-[#0506A7] skew-y-12"
+      class="{{ 'active' if '/festival' in page.url }} whitespace-nowrap p-1 bg-[#A8E004] text-[#0506A7] border border-[#0506A7]"
       href="/festival"
       >Festival 2024</a
     >
-    <!-- <a class="{{ 'active' if '/workshops2023' in page.url }} whitespace-nowrap p-1 bg-[#A8E004] text-[#0506A7] border border-[#0506A7] -skew-y-12" href="/workshops2023">Workshops</a> -->
     <a
-      class="{{ 'active' if '/warmup' in page.url }} whitespace-nowrap p-1 bg-[#A8E004] text-[#0506A7] border border-[#0506A7] -skew-x-12"
+      class="{{ 'active' if '/workshops2024' in page.url }} whitespace-nowrap p-1 bg-[#A8E004] text-[#0506A7] border border-[#0506A7]"
+      href="/workshops2024"
+      >Workshops</a
+    >
+    <a
+      class="{{ 'active' if '/warmup' in page.url }} whitespace-nowrap p-1 bg-[#A8E004] text-[#0506A7] border border-[#0506A7]"
       href="/warmup"
       >Warmup</a
     >
-    <!-- <a class="{{ 'active' if '/archive' in page.url }} whitespace-nowrap p-1 bg-[#A8E004] text-[#0506A7] border border-[#0506A7] skew-y-12" href="/archive">Archive</a> -->
+    <!-- <a class="{{ 'active' if '/archive' in page.url }} whitespace-nowrap p-1 bg-[#A8E004] text-[#0506A7] border border-[#0506A7]" href="/archive">Archive</a> -->
     <a></a>
   </nav>
 </header>

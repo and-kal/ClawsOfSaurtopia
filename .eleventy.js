@@ -9,6 +9,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./assets/video");
   eleventyConfig.addPassthroughCopy("./assets/*.*");
   eleventyConfig.addPassthroughCopy("./archive/media");
+  eleventyConfig.addPassthroughCopy({
+    "./node_modules/hydra-synth/dist/hydra-synth.js":
+      "/assets/js/hydra-synth.js",
+  });
 
   eleventyConfig.setBrowserSyncConfig({
     files: "./assets/css/*.css",
@@ -32,96 +36,91 @@ module.exports = function (eleventyConfig) {
     const bandsWarmup1 = [
       {
         name: "Danse Musique Rhône-Alpes",
-        bio: "...",
+        bio: false,
         link: "https://dmra.bandcamp.com",
       },
       {
         name: "BZMC fka. Black Zone Myth Chant",
-        bio: "...",
+        bio: false,
         link: "https://blackzonemythchant.bandcamp.com",
       },
     ];
     const bandsWarmup2 = [
       {
         name: "Atol Atol Atol",
-        bio: "...",
+        bio: false,
         link: "https://ubac.bandcamp.com/album/koniec-sosu-tysi-ca-wysp",
       },
       {
         name: "Nape Neck",
-        bio: "...",
+        bio: false,
         link: "https://napeneck.bandcamp.com/",
       },
       {
         name: "Ilia Gorowitz",
-        bio: "...",
+        bio: false,
         link: "https://iliagorovitz.bandcamp.com",
-      },
-      {
-        name: "Andarta",
-        bio: "...",
-        link: "https://andartagroup.bandcamp.com",
       },
     ];
     const bandsFestival = [
       {
         name: "Munka:Weber",
-        bio: "...",
+        bio: false,
         link: "https://www.youtube.com/watch?v=FMub_RS1yxc",
       },
       {
         name: "Sheik Anorak",
-        bio: "...",
+        bio: false,
         link: "https://gafferrecords.bandcamp.com/album/gbg2",
       },
       {
         name: "TRRMA'",
-        bio: "...",
+        bio: false,
         link: "https://www.youtube.com/watch?v=uprVt6G7p5U",
       },
       {
         name: "Viola Yip",
-        bio: "...",
+        bio: false,
         link: "https://www.youtube.com/watch?v=I_3ZA_AiZtQ",
       },
       {
         name: "Schleu",
-        bio: "...",
+        bio: false,
         link: "https://www.youtube.com/watch?v=o5Ilts-0Dxs",
       },
       {
         name: "Cuntroaches",
-        bio: "...",
+        bio: false,
         link: "https://www.youtube.com/watch?v=KQ90sqzcunU",
       },
       {
         name: "Miss Tetanos",
-        bio: "...",
+        bio: false,
         link: "https://www.youtube.com/watch?v=mRw7jDelmc0",
       },
       {
         name: "P≡B",
-        bio: "...",
+        bio: false,
         link: "https://www.youtube.com/watch?v=a69ZprY4M_8",
       },
       {
         name: "Jan Van Angelopoulos & Fotis Siotas",
-        bio: "...",
+        bio: false,
         link: "https://www.youtube.com/watch?v=2K0zk4BRN_Y",
       },
       {
         name: "weird ugly fish / keista bjauri žuvis",
-        bio: "...",
+        bio: false,
         link: "https://weirduglyfish.bandcamp.com/album/legs-are-for-swimming",
       },
       {
         name: "Ignaz Schick",
-        bio: "...",
+        bio: false,
         link: "https://www.youtube.com/watch?v=sfeNyvmz7JY",
       },
       {
-        name: "GRMMSK",
-        bio: "...",
+        name: "Coldsore",
+        bio: false,
         link: "https://www.youtube.com/watch?v=3lkv_UjPJC0",
       },
     ];
@@ -158,10 +157,13 @@ module.exports = function (eleventyConfig) {
         >
           ${band.name}
         </a>
-        <div class='band_bio'>
+        ${
+          band.bio &&
+          `<div class='band_bio'>
           ${band.bio}
-        </div>
-        ${band.time ? `<div class="">${band.time}</div>` : ""}
+        </div>`
+        }
+        ${band.time && `<div class="">${band.time}</div>`}
       </div>
     `;
     });
