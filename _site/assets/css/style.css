@@ -403,7 +403,8 @@ body header nav a {
   text-align: center;
 }
 body header nav a.active {
-  box-shadow: 0 0 0 3px #4ff402;
+  box-shadow: 0 0 0 0;
+  transform: translate(5px, 5px);
 }
 body .funny-icons {
   font-family: "Cairo";
@@ -411,7 +412,7 @@ body .funny-icons {
 body #main-container {
   width: 90%;
   min-height: 90vh;
-  max-width: 550px;
+  max-width: 65ch;
   color: #1559ba;
   border: 3px groove #1559ba;
   background-image: url("/assets/img/noise.png");
@@ -428,7 +429,6 @@ body #main-container #content video {
 }
 body #main-container #content .headline {
   font-family: "Outrunner_Outline";
-  font-size: 2.5rem;
   border: 10px solid #f8f6f6;
   background-color: #f8f6f6;
   border-image: repeating-linear-gradient(45deg, #ffd1d1, #ffd1d1 1%, #1559ba 1%, #1559ba 8%) 10;
