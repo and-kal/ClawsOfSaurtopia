@@ -36,7 +36,7 @@
   canvas.style.cssText = 'width:100%;height:100%';
   canvas.setAttribute("id", "hydraContainer");
   window.onload = function () {
-    document.body.appendChild(canvas);
+    document.documentElement.appendChild(canvas);
     const hydraContainer = document.getElementById("hydraContainer");
     const hydra = new Hydra({ canvas: hydraContainer, detectAudio: false })
     noise(1, 1)
@@ -189,6 +189,4 @@
 </footer>
 
 </body>
-<canvas id="hydraContainer" style="width:100%;height:100%"></canvas>
-
 </html>
