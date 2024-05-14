@@ -44,6 +44,11 @@ module.exports = function (eleventyConfig) {
         bio: false,
         link: "https://blackzonemythchant.bandcamp.com",
       },
+      {
+        name: "iion & elder pogs",
+        bio: false,
+        link: "",
+      },
     ];
     const bandsWarmup2 = [
       {
