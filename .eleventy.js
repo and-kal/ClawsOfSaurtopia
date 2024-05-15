@@ -47,7 +47,7 @@ module.exports = function (eleventyConfig) {
       {
         name: "iion & elder pogs",
         bio: false,
-        link: "",
+        link: "https://soundcloud.com/poganyg",
       },
     ];
     const bandsWarmup2 = [
