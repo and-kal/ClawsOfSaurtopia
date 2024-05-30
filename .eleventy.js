@@ -133,7 +133,7 @@ module.exports = function (eleventyConfig) {
       {
         name: "Coldsore",
         bio: false,
-        link: "https://www.youtube.com/watch?v=3lkv_UjPJC0",
+        link: "https://coldsore-sound.tumblr.com/",
       },
     ];
 
