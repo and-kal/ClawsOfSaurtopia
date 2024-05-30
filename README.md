@@ -1,39 +1,79 @@
-𝕮laws 𝕺f 𝕾aurtopia 𝕹oise 𝖋estival 2023
+𝕮laws 𝕺f 𝕾aurtopia 𝕹oise 𝖋estival 2024
 
-🐊 🦤 🐉 🦕 🦎 
-June 2 and June 3
+🐊 🦤 🐉 🦕 🦎
+June 7 and June 8
 at ZXRX [Leipzig]
 🦣 🦖 🐢 🌋 🐲
 
-#### Friday, 2 June 2023:
-- Gleeetch
-- Territorial Gobbing
-- Rundfunkorchestra
-- Klösse
-- It's Everyone Else
-- Gorz
-- Nape Neck
+#### Friday, 7 June 2027 & Saturday, 8 June 2024
 
-#### Saturday, 3 June 2023:
-- Deeskalationskommando
-- Fiat X Multipla
-- Sathönay
-- Earthlogoff
-- Makroplastik
-- Heimat
-- Atol Atol Atol
+Starting each day at 8pm sharp(!)
+
+- Munka:Weber
+- Sheik Anorak
+- TRRMA'
+- Viola Yip
+- Schleu
+- Cuntroaches
+- Miss Tetanos
+- P≡B
+- Jan Van Angelopoulos & Fotis Siotas
+- weird ugly fish / keista bjauri žuvis
+- Ignaz Schick
+- Der Warst
+- Coldsore
 
 (×_×;）
 
-🐊 🦤 🐉 🦕 🦎 
-♨️ Warmup ♨️
-April 29
-at SPXLXNKX
+#### Workshops
+
+##### „NoiseToys – not just for boys“
+
+Workshop: Friday, 7 June | 15:00-19:00
+
+Concert: Friday, 7 June | 21:00
+
+register at
+noisefest@riseup.net
+
+##### DIY means Do It Yourself!
+
+Saturday, 8 June | 15:00-19:00
+
+#### Warmups
+
+##### ♨️ Warmup #1 ♨️
+
+🐊 🦤 🐉 🦕 🦎
+
+Friday, 17 May 2024
+
+Doors: 19h00
+
+Start: 20h00
+
+at PRXCXT [Leipzig-Reudnitz]
+
+with:
+
+- Danse Musique Rhône-Alpes
+- BZMC fka. Black Zone Myth Chant
+- iion & elder pogs
+
+##### ♨️ Warmup #1 ♨️
+
 🦣 🦖 🐢 🌋 🐲
 
-#### Saturday, 29 April 2023:
+Thursday, 23 May 2024
 
-- Pieuvre
-- Untel
-- PLS
-- Fatique Suspecte
+Doors: 19h00
+
+Start: 20h00
+
+at SPXLXNKX [Leipzig-Plagwitz]
+
+with:
+
+- Atol Atol Atol
+- Nape Neck
+- Ilia Gorowitz
