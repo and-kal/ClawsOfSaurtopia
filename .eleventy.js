@@ -3,11 +3,12 @@ const { EleventyRenderPlugin } = require("@11ty/eleventy");
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPassthroughCopy("./assets/css/*.css");
-  eleventyConfig.addPassthroughCopy("./archive/*.css");
   eleventyConfig.addPassthroughCopy("./assets/fonts");
   eleventyConfig.addPassthroughCopy("./assets/img");
   eleventyConfig.addPassthroughCopy("./assets/video");
   eleventyConfig.addPassthroughCopy("./assets/*.*");
+  eleventyConfig.addPassthroughCopy("./archive/2022");
+  eleventyConfig.addPassthroughCopy("./archive/html");
   eleventyConfig.addPassthroughCopy("./archive/media");
   eleventyConfig.addPassthroughCopy({
     "./node_modules/hydra-synth/dist/hydra-synth.js":
@@ -122,6 +123,11 @@ module.exports = function (eleventyConfig) {
         name: "Ignaz Schick",
         bio: false,
         link: "https://www.youtube.com/watch?v=sfeNyvmz7JY",
+      },
+      {
+        name: "Der Warst",
+        bio: false,
+        link: "https://schaefersimon.de",
       },
       {
         name: "Coldsore",
