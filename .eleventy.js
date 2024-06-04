@@ -5,6 +5,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./assets/css/*.css");
   eleventyConfig.addPassthroughCopy("./assets/fonts");
   eleventyConfig.addPassthroughCopy("./assets/img");
+  eleventyConfig.addPassthroughCopy("./assets/other");
   eleventyConfig.addPassthroughCopy("./assets/video");
   eleventyConfig.addPassthroughCopy("./assets/*.*");
   eleventyConfig.addPassthroughCopy("./archive/2022");
