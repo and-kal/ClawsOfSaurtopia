@@ -26,7 +26,7 @@ def read_html_files(folder_path):
             for caption_element in caption_elements:
                 caption = caption_element.get_text(strip=True)
         
-        print(f"<div class='post_link' id='{html_file.strip('.html')}'><a class='underline' href='html/{html_file}' target='_blank'>{caption}</a> from {timestamp}</div>")
+        print(f"<div class='post_link' id='{html_file.strip('.html')}'><a class='underline' href='/archive/html/{html_file}' target='_blank'>{caption}</a> from {timestamp}</div>")
 
 folder_path = './'
 read_html_files(folder_path)
