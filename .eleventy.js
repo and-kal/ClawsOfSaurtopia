@@ -70,21 +70,16 @@ module.exports = function (eleventyConfig) {
         link: "https://iliagorovitz.bandcamp.com",
       },
     ];
-    const bandsFestival = [
-      {
-        name: "Munka:Weber",
-        bio: false,
-        link: "https://www.youtube.com/watch?v=FMub_RS1yxc",
-      },
+    const bandsFestivalFriday = [
       {
         name: "Sheik Anorak",
         bio: false,
         link: "https://gafferrecords.bandcamp.com/album/gbg2",
       },
       {
-        name: "TRRMA'",
+        name: "Circuit Bending Surprise Act",
         bio: false,
-        link: "https://www.youtube.com/watch?v=uprVt6G7p5U",
+        link: "https://clawsofsaurtopia.glitch.me/workshops2024",
       },
       {
         name: "Viola Yip",
@@ -96,6 +91,29 @@ module.exports = function (eleventyConfig) {
         bio: false,
         link: "https://www.youtube.com/watch?v=o5Ilts-0Dxs",
       },
+
+      {
+        name: "Jan Van Angelopoulos & Fotis Siotas",
+        bio: false,
+        link: "https://www.youtube.com/watch?v=2K0zk4BRN_Y",
+      },
+      {
+        name: "weird ugly fish / keista bjauri žuvis",
+        bio: false,
+        link: "https://weirduglyfish.bandcamp.com/album/legs-are-for-swimming",
+      },
+      {
+        name: "Coldsore",
+        bio: false,
+        link: "https://coldsore-sound.tumblr.com/",
+      },
+      {
+        name: "W.E.E.B.Z",
+        bio: false,
+        link: "https://soundcloud.com/callshopradio/disposable-time-w-weebz-160524/",
+      },
+    ];
+    const bandsFestivalSaturday = [
       {
         name: "Cuntroaches",
         bio: false,
@@ -111,30 +129,26 @@ module.exports = function (eleventyConfig) {
         bio: false,
         link: "https://www.youtube.com/watch?v=a69ZprY4M_8",
       },
-      {
-        name: "Jan Van Angelopoulos & Fotis Siotas",
-        bio: false,
-        link: "https://www.youtube.com/watch?v=2K0zk4BRN_Y",
-      },
-      {
-        name: "weird ugly fish / keista bjauri žuvis",
-        bio: false,
-        link: "https://weirduglyfish.bandcamp.com/album/legs-are-for-swimming",
-      },
+      { name: "Der Warst", bio: false, link: "https://schaefersimon.de" },
       {
         name: "Ignaz Schick",
         bio: false,
         link: "https://www.youtube.com/watch?v=sfeNyvmz7JY",
       },
       {
-        name: "Der Warst",
+        name: "TRRMÀ",
         bio: false,
-        link: "https://schaefersimon.de",
+        link: "https://www.youtube.com/watch?v=uprVt6G7p5U",
       },
       {
-        name: "Coldsore",
+        name: "Munka:Weber",
         bio: false,
-        link: "https://coldsore-sound.tumblr.com/",
+        link: "https://www.youtube.com/watch?v=FMub_RS1yxc",
+      },
+      {
+        name: "DJ Pregnant",
+        bio: false,
+        link: "https://soundcloud.com/yoavsk",
       },
     ];
 
@@ -144,8 +158,10 @@ module.exports = function (eleventyConfig) {
           return bandsWarmup1;
         case "warmup2":
           return bandsWarmup2;
-        case "festival":
-          return bandsFestival;
+        case "festivalFriday":
+          return bandsFestivalFriday;
+        case "festivalSaturday":
+          return bandsFestivalSaturday;
         default:
           break;
       }
