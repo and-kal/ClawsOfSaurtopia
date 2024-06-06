@@ -91,7 +91,6 @@ module.exports = function (eleventyConfig) {
         bio: false,
         link: "https://www.youtube.com/watch?v=o5Ilts-0Dxs",
       },
-
       {
         name: "Jan Van Angelopoulos & Fotis Siotas",
         bio: false,
