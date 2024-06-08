@@ -114,7 +114,12 @@ module.exports = function (eleventyConfig) {
     ];
     const bandsFestivalSaturday = [
       {
-        name: "Cuntroaches",
+        name: "Omni Selassi",
+        bio: false,
+        link: "https://omniselassi.bandcamp.com/",
+      },
+      {
+        name: "C̶u̶n̶t̶r̶o̶a̶c̶h̶e̶s̶",
         bio: false,
         link: "https://www.youtube.com/watch?v=KQ90sqzcunU",
       },
