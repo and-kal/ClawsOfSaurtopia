@@ -36,7 +36,7 @@ module.exports = function (eleventyConfig) {
       ["#A8E004", "#0506A7"],
     ];
 
-    const bandsWarmup1 = [
+    const bandsWarmup2024_1 = [
       {
         name: "Danse Musique Rhône-Alpes",
         bio: false,
@@ -53,7 +53,7 @@ module.exports = function (eleventyConfig) {
         link: "https://soundcloud.com/poganyg",
       },
     ];
-    const bandsWarmup2 = [
+    const bandsWarmup2024_2 = [
       {
         name: "Atol Atol Atol",
         bio: false,
@@ -70,7 +70,7 @@ module.exports = function (eleventyConfig) {
         link: "https://iliagorovitz.bandcamp.com",
       },
     ];
-    const bandsFestivalFriday = [
+    const bandsFestival2024Friday = [
       {
         name: "Sheik Anorak",
         bio: false,
@@ -79,7 +79,7 @@ module.exports = function (eleventyConfig) {
       {
         name: "Circuit Bending Surprise Act",
         bio: false,
-        link: "https://clawsofsaurtopianetlify.app/workshops2024",
+        link: "https://clawsofsaurtopianetlify.app/archive/2024/workshops",
       },
       {
         name: "Viola Yip",
@@ -112,7 +112,7 @@ module.exports = function (eleventyConfig) {
         link: "https://soundcloud.com/callshopradio/disposable-time-w-weebz-160524/",
       },
     ];
-    const bandsFestivalSaturday = [
+    const bandsFestival2024Saturday = [
       {
         name: "Omni Selassi",
         bio: false,
@@ -158,14 +158,14 @@ module.exports = function (eleventyConfig) {
 
     const bands = () => {
       switch (roster) {
-        case "warmup1":
-          return bandsWarmup1;
-        case "warmup2":
-          return bandsWarmup2;
-        case "festivalFriday":
-          return bandsFestivalFriday;
-        case "festivalSaturday":
-          return bandsFestivalSaturday;
+        case "warmup2024_1":
+          return bandsWarmup2024_1;
+        case "warmup2024_2":
+          return bandsWarmup2024_2;
+        case "festival2024Friday":
+          return bandsFestival2024Friday;
+        case "festival2024Saturday":
+          return bandsFestival2024Saturday;
         default:
           break;
       }

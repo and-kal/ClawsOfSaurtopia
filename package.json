@@ -1,7 +1,7 @@
 {
   "name": "clawsofsaurtopia",
-  "version": "3.0.0",
-  "description": "Claws Of Saurtopia Noise festival 2024 // June 7 and June 8 in Leipzig.",
+  "version": "4.0.0",
+  "description": "Claws Of Saurtopia Noise festival 2026 // June 5 and 6 in Leipzig.",
   "main": "index.html",
   "scripts": {
     "watch:sass": "npx sass assets/scss:_site/assets/css --watch",
