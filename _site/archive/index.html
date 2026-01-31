@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <title>claWS of saUrToPiA NOISE FeSTIVaL 2024</title>
+  <title>claWS of saUrToPiA NOISE FeSTIVaL 2026</title>
 
   <link rel="icon" type="image/png" href="/assets/favicon.ico" />
   <link rel="author" href="/assets/humans.txt" />
@@ -20,18 +20,18 @@
   <meta name="msapplication-TileColor" content="#da532c" />
   <meta name="theme-color" content="#ffffff" />
 
-  <meta property="og:title" content="claWS of saUrToPiA NOISE FeSTIVaL 2024" />
+  <meta property="og:title" content="claWS of saUrToPiA NOISE FeSTIVaL 2026" />
   <meta property="og:site_name" content="https://clawsofsaurtopianetlify.app/" />
   <meta property="og:url" content="https://clawsofsaurtopianetlify.app/" />
   <meta property="og:description"
-    content="CLAWS ◣ⶒⷯ⏷⌛⠹◉⬳ OF ⽆⎹⤿❼╫⌺≣⎫ⴵ⦻⛷⩟ SAURTOPIA ⵌⅣ⥆⌅∵∿♱✛❳⪵ⵯⅉ⣼◻┿ FESTIVAL ⁸⟌◷⯠⺪ⴝ␣☬⎥⋕⌞◜ JUNE 7 AND 8, 2024 ℷⶋ⺭⬿ⲛ​⤼⬥⍫⦬⎱⡒⍟⦍⼏ GET ≜⢙‸⸣☬⪙⃆⽏⧈ↆ⠞≯⢎ YOURSELVES ⚧♞⍲Ⱬ⒮⛔ OVER ⣊⿃◅Ⱝ⁾⮇➭⎄ THERE" />
+    content="CLAWS ◣ⶒⷯ⏷⌛⠹◉⬳ OF ⽆⎹⤿❼╫⌺≣⎫ⴵ⦻⛷⩟ SAURTOPIA ⵌⅣ⥆⌅∵∿♱✛❳⪵ⵯⅉ⣼◻┿ FESTIVAL ⁸⟌◷⯠⺪ⴝ␣☬⎥⋕⌞◜ JUNE 5 AND 6, 2026 ℷⶋ⺭⬿ⲛ​⤼⬥⍫⦬⎱⡒⍟⦍⼏ GET ≜⢙‸⸣☬⪙⃆⽏⧈ↆ⠞≯⢎ YOURSELVES ⚧♞⍲Ⱬ⒮⛔ OVER ⣊⿃◅Ⱝ⁾⮇➭⎄ THERE" />
   <meta property="og:type" content="profile" />
   <meta property="og:image"
-    content="https://cdn.glitch.global/e9900d57-73ab-4734-8495-72674bf94e12/296627_237668039620143_1318302726_n.jpg?v=1713301729507" />
+    content="https://64.media.tumblr.com/avatar_643b93fb3e85_128.pnj" />
 </head>
 <script type="application/ld+json"></script>
-<script src='/assets/js/hydra-synth.js'></script>
-<script>
+<script async src='/assets/js/hydra-synth.js'></script>
+<script defer>
   let canvas = document.createElement('canvas');
   canvas.style.cssText = 'width:100%;height:100%;position:absolute;top:0;z-index:-1;';
   canvas.setAttribute("id", "hydraContainer");
@@ -39,17 +39,11 @@
     document.documentElement.appendChild(canvas);
     const hydraContainer = document.getElementById("hydraContainer");
     const hydra = new Hydra({ canvas: hydraContainer, detectAudio: false })
-    voronoi(10, .1)
-      .blend(src(o0).blend(voronoi(39, 1.2), 1.5), .7)
-      .modulatePixelate(voronoi(1000, .2), 100)
-      .add(noise(1, .2), .1)
-      .diff(noise(20, .2), .6)
-      .contrast(.7)
-      .add(src(o0).scale(.6), .5)
-      .modulate(osc(5, .1), .2)
-      .color([.2, .5, 1, 0].smooth(), [1.2, .7, .5, 1.5].smooth(), [.3, 1.3, 2.3].smooth())
-      .out(o0);
-    render(o0);
+osc().modulateRotate(o0,0.3).modulate(osc(5, .1), .9).out()
+osc(33,0.3,0.3).diff(o3,3).out(o1)
+osc(3,0.3,33).modulateKaleid(o3,3).diff(o0).out(o2)
+src(o0,3).mult(o1,3).kaleid(3).out(o3)
+render(o2)
     speed = .5;
   }
 </script>
@@ -64,21 +58,6 @@
       >Home</a
     >
     <a
-      class=" whitespace-nowrap bg-[#0506A7] text-[#ffd7d6] border border-[black]"
-      href="/archive/2024/warmup"
-      >Warmup 2024</a
-    >
-    <a
-      class=" whitespace-nowrap bg-[#0506A7] text-[#ffd7d6] border border-[black]"
-      href="/archive/2024/festival"
-      >Festival 2024</a
-    >
-    <a
-      class=" whitespace-nowrap bg-[#0506A7] text-[#ffd7d6] border border-[black]"
-      href="/archive/2024/workshops"
-      >Workshops 2024</a
-    >
-    <a
       class="active whitespace-nowrap bg-[#0506A7] text-[#ffd7d6] border border-[black]"
       href="/archive"
       >Archive</a
@@ -91,6 +70,9 @@
       
 <main>
   <section>
+    <a class="border border-2 border-blue-500 bg-white" href="/archive/2024"
+      >2024</a
+    >
     <a class="border border-2 border-blue-500 bg-white" href="/archive/2023"
       >2023</a
     >
@@ -326,13 +308,13 @@
     </div>
     <div class="post_link" id="173868246863">
       <a class="underline" href="/archive/html/173868246863.html" target="_blank"
-        >blog post</a
+        >Post-Materialists</a
       >
       from May 11th, 2018 9:12pm
     </div>
     <div class="post_link" id="173868577183">
       <a class="underline" href="/archive/html/173868577183.html" target="_blank"
-        >blog post</a
+        >Stop Asking Stupid Questions</a
       >
       from May 12th, 2018 9:24pm
     </div>
@@ -404,13 +386,13 @@
     </div>
     <div class="post_link" id="174430227746">
       <a class="underline" href="/archive/html/174430227746.html" target="_blank"
-        >blog post</a
+        >ROLAND MOOG @ CoS 2018</a
       >
       from May 31st, 2018 11:00am
     </div>
     <div class="post_link" id="174432056533">
       <a class="underline" href="/archive/html/174432056533.html" target="_blank"
-        >blog post</a
+        >Claws Of Saurtopia compilation #6</a
       >
       from May 31st, 2018 1:08pm
     </div>
@@ -428,13 +410,13 @@
     </div>
     <div class="post_link" id="174693016398">
       <a class="underline" href="/archive/html/174693016398.html" target="_blank"
-        >blog post</a
+        >Thanks</a
       >
       from June 3rd, 2018 4:08pm
     </div>
     <div class="post_link" id="185588270413">
       <a class="underline" href="/archive/html/185588270413.html" target="_blank"
-        >blog post</a
+        >Claws Of Saurtopia compilation #7</a
       >
       from June 14th, 2019 5:04pm
     </div>

@@ -39,17 +39,11 @@
     document.documentElement.appendChild(canvas);
     const hydraContainer = document.getElementById("hydraContainer");
     const hydra = new Hydra({ canvas: hydraContainer, detectAudio: false })
-    voronoi(10, .1)
-      .blend(src(o0).blend(voronoi(39, 1.2), 1.5), .7)
-      .modulatePixelate(voronoi(1000, .2), 100)
-      .add(noise(1, .2), .1)
-      .diff(noise(20, .2), .6)
-      .contrast(.7)
-      .add(src(o0).scale(.6), .5)
-      .modulate(osc(5, .1), .2)
-      .color([.2, .5, 1, 0].smooth(), [1.2, .7, .5, 1.5].smooth(), [.3, 1.3, 2.3].smooth())
-      .out(o0);
-    render(o0);
+    osc().modulateRotate(o0,0.3).modulate(osc(5, .1), .9).out();
+    osc(33,0.3,0.3).diff(o3,3).out(o1);
+    osc(3,0.3,33).modulateKaleid(o3,3).diff(o0).out(o2);
+    src(o0,3).mult(o1,3).kaleid(3).out(o3);
+    render(o2);
     speed = .5;
   }
 </script>
