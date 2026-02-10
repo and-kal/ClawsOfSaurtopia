@@ -460,7 +460,8 @@ body {
   .funny-icons {
     font-family: "Cairo";
   }
-  #main-container {
+  #main-container, 
+  #main-container-2026 {
     width: 90%;
     min-height: 90vh;
     max-width: 65ch;
@@ -540,6 +541,9 @@ body {
         background-size: 10px 10px;
       }
     }
+  }
+  #main-container-2026 {
+    background-image: url("/assets/img/noise2.png");
   }
 }
 

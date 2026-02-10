@@ -402,7 +402,8 @@ body header nav a.active {
 body .funny-icons {
   font-family: "Cairo";
 }
-body #main-container {
+body #main-container,
+body #main-container-2026 {
   width: 90%;
   min-height: 90vh;
   max-width: 65ch;
@@ -412,46 +413,56 @@ body #main-container {
   background-repeat: repeat;
 }
 body #main-container #content #warmup,
-body #main-container #content #festival ~ div {
+body #main-container #content #festival ~ div,
+body #main-container-2026 #content #warmup,
+body #main-container-2026 #content #festival ~ div {
   text-shadow: 1px 1px #121212;
 }
-body #main-container #content video {
+body #main-container #content video,
+body #main-container-2026 #content video {
   width: 100%;
   height: auto;
   margin: 1rem 0;
 }
-body #main-container #content .headline {
+body #main-container #content .headline,
+body #main-container-2026 #content .headline {
   font-family: "Outrunner_Outline";
   border: 10px solid #f8f6f6;
   background-color: #f8f6f6;
   border-image: repeating-linear-gradient(45deg, #ffd1d1, #ffd1d1 1%, #1559ba 1%, #1559ba 8%) 10;
 }
-body #main-container #content #bands {
+body #main-container #content #bands,
+body #main-container-2026 #content #bands {
   display: flex;
   flex-flow: column;
 }
-body #main-container #content #bands .band {
+body #main-container #content #bands .band,
+body #main-container-2026 #content #bands .band {
   padding: 0.5rem 1rem;
   margin: 0.5rem;
 }
-body #main-container #content #bands .band_link {
+body #main-container #content #bands .band_link,
+body #main-container-2026 #content #bands .band_link {
   width: fit-content;
   padding: 0.5rem 1rem;
   margin: 0.5rem auto;
   font-weight: bold;
   box-shadow: 4px 4px 0 #121212;
 }
-body #main-container #content #bands .band_bio {
+body #main-container #content #bands .band_bio,
+body #main-container-2026 #content #bands .band_bio {
   margin-top: 0.5rem;
   line-height: calc((0.9em + 0.5vw) * 1.25);
   text-align: center;
 }
-body #main-container #content #onStage {
+body #main-container #content #onStage,
+body #main-container-2026 #content #onStage {
   font-size: 1.5rem;
   text-decoration: underline;
   text-decoration-style: double;
 }
-body #main-container #content .announcement {
+body #main-container #content .announcement,
+body #main-container-2026 #content .announcement {
   color: #ffd1d1;
   background-color: #1559ba;
   padding: 0.5rem;
@@ -459,7 +470,8 @@ body #main-container #content .announcement {
   max-width: 65ch;
   border: 2px dotted #121212;
 }
-body #main-container #content .jagged-rule-dark {
+body #main-container #content .jagged-rule-dark,
+body #main-container-2026 #content .jagged-rule-dark {
   border: none !important;
   height: 10px;
   background: linear-gradient(-135deg, transparent 5px, transparent 0) 0 5px, linear-gradient(135deg, transparent 5px, #333 0) 0 5px;
@@ -467,6 +479,9 @@ body #main-container #content .jagged-rule-dark {
   background-position: left bottom;
   background-repeat: repeat-x;
   background-size: 10px 10px;
+}
+body #main-container-2026 {
+  background-image: url("/assets/img/noise2.png");
 }
 
 @-webkit-keyframes gradientBG {
