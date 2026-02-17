@@ -79,7 +79,7 @@ module.exports = function (eleventyConfig) {
       {
         name: "Circuit Bending Surprise Act",
         bio: false,
-        link: "https://clawsofsaurtopianetlify.app/archive/2024/workshops",
+        link: "https://clawsofsaurtopia.neocities.org/archive/2024/workshops",
       },
       {
         name: "Viola Yip",
