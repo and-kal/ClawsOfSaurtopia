@@ -460,7 +460,7 @@ body {
   .funny-icons {
     font-family: "Cairo";
   }
-  #main-container, 
+  #main-container,
   #main-container-2026 {
     width: 90%;
     min-height: 90vh;
@@ -499,12 +499,12 @@ body {
         display: flex;
         flex-flow: column;
         .band {
-          padding: 0.5rem 1rem;
+          padding: 0.125rem 1rem;
           margin: 0.5rem;
         }
         .band_link {
           width: fit-content;
-          padding: 0.5rem 1rem;
+          padding: 0.125rem 1rem;
           margin: 0.5rem auto;
           font-weight: bold;
           box-shadow: 4px 4px 0 $black;
@@ -532,8 +532,8 @@ body {
       .jagged-rule-dark {
         border: none !important;
         height: 10px;
-        background: linear-gradient(-135deg, transparent 5px, transparent 0) 0
-            5px,
+        background:
+          linear-gradient(-135deg, transparent 5px, transparent 0) 0 5px,
           linear-gradient(135deg, transparent 5px, #333 0) 0 5px;
         background-color: transparent;
         background-position: left bottom;
