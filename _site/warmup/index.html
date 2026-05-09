@@ -5,12 +5,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <title>claWS of saUrToPiA NOISE FeSTIVaL 2024</title>
+  <title>claWS of saUrToPiA NOISE FeSTIVaL 2026</title>
 
   <link rel="icon" type="image/png" href="/assets/favicon.ico" />
   <link rel="author" href="/assets/humans.txt" />
   <link rel="author" href="/assets/robots.txt" />
-
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="stylesheet" href="/assets/css/tailwind.css" />
 
@@ -21,11 +20,11 @@
   <meta name="msapplication-TileColor" content="#da532c" />
   <meta name="theme-color" content="#ffffff" />
 
-  <meta property="og:title" content="claWS of saUrToPiA NOISE FeSTIVaL 2024" />
+  <meta property="og:title" content="claWS of saUrToPiA NOISE FeSTIVaL 2026" />
   <meta property="og:site_name" content="https://clawsofsaurtopia.neocities.org/" />
   <meta property="og:url" content="https://clawsofsaurtopia.neocities.org/" />
   <meta property="og:description"
-    content="CLAWS ◣ⶒⷯ⏷⌛⠹◉⬳ OF ⽆⎹⤿❼╫⌺≣⎫ⴵ⦻⛷⩟ SAURTOPIA ⵌⅣ⥆⌅∵∿♱✛❳⪵ⵯⅉ⣼◻┿ FESTIVAL ⁸⟌◷⯠⺪ⴝ␣☬⎥⋕⌞◜ JUNE 7 AND 8, 2024 ℷⶋ⺭⬿ⲛ​⤼⬥⍫⦬⎱⡒⍟⦍⼏ GET ≜⢙‸⸣☬⪙⃆⽏⧈ↆ⠞≯⢎ YOURSELVES ⚧♞⍲Ⱬ⒮⛔ OVER ⣊⿃◅Ⱝ⁾⮇➭⎄ THERE" />
+    content="CLAWS ◣ⶒⷯ⏷⌛⠹◉⬳ OF ⽆⎹⤿❼╫⌺≣⎫ⴵ⦻⛷⩟ SAURTOPIA ⵌⅣ⥆⌅∵∿♱✛❳⪵ⵯⅉ⣼◻┿ FESTIVAL ⁸⟌◷⯠⺪ⴝ␣☬⎥⋕⌞◜ JUNE 5 AND 6, 2026 ℷⶋ⺭⬿ⲛ​⤼⬥⍫⦬⎱⡒⍟⦍⼏ GET ≜⢙‸⸣☬⪙⃆⽏⧈ↆ⠞≯⢎ YOURSELVES ⚧♞⍲Ⱬ⒮⛔ OVER ⣊⿃◅Ⱝ⁾⮇➭⎄ THERE" />
   <meta property="og:type" content="profile" />
   <meta property="og:image"
     content="https://64.media.tumblr.com/avatar_643b93fb3e85_128.pnj" />
@@ -40,166 +39,115 @@
     document.documentElement.appendChild(canvas);
     const hydraContainer = document.getElementById("hydraContainer");
     const hydra = new Hydra({ canvas: hydraContainer, detectAudio: false })
-    voronoi(10, .1)
-      .blend(src(o0).blend(voronoi(39, 1.2), 1.5), .7)
-      .modulatePixelate(voronoi(1000, .2), 100)
-      .add(noise(1, .2), .1)
-      .diff(noise(20, .2), .6)
-      .contrast(.7)
-      .add(src(o0).scale(.6), .5)
-      .modulate(osc(5, .1), .2)
-      .color([.2, .5, 1, 0].smooth(), [1.2, .7, .5, 1.5].smooth(), [.3, 1.3, 2.3].smooth())
-      .out(o0);
-    render(o0);
+    osc().modulateRotate(o0,0.3).modulate(osc(5, .1), .9).out();
+    osc(33,0.3,0.3).diff(o3,3).out(o1);
+    osc(3,0.3,33).modulateKaleid(o3,3).diff(o0).out(o2);
+    src(o0,3).mult(o1,3).kaleid(3).out(o3);
+    render(o2);
     speed = .5;
   }
 </script>
 
 <body class="m-auto w-full p-4 box-border min-h-screen">
-  <div id="main-container" class="m-auto">
+  <div id="main-container-2026" class="m-auto">
     <header class="text-base">
   <nav class="w-full p-3 flex flex-row flex-wrap justify-around">
     <a
       class=" whitespace-nowrap bg-[#0506A7] text-[#ffd7d6] border border-[black]"
       href="/"
-      >2026</a
+      >Home</a
     >
     <a
       class="active whitespace-nowrap bg-[#0506A7] text-[#ffd7d6] border border-[black]"
-      href="/archive/2024/warmup"
-      >Warmup 2024</a
+      href="/warmup"
+      >Warmup 2026</a
     >
     <a
       class=" whitespace-nowrap bg-[#0506A7] text-[#ffd7d6] border border-[black]"
-      href="/archive/2024/festival"
-      >Festival 2024</a
+      href="/workshops"
+      >Workshops 2026</a
     >
     <a
       class=" whitespace-nowrap bg-[#0506A7] text-[#ffd7d6] border border-[black]"
-      href="/archive/2024/workshops"
-      >Workshops 2024</a
-    >
-    <a
-      class="whitespace-nowrap bg-[#0506A7] text-[#ffd7d6] border border-[black]"
       href="/archive"
       >Archive</a
     >
   </nav>
 </header>
 
+
     <div id="content" class="p-2 text-center">
       
 <main>
   <div class="warmup">
-    <h2 class="headline">Noisefest Warmupz 2024</h2>
+    <h2 class="headline">Claws of Saurtopia Warmup 2026</h2>
 
-    <div class="funny-icons">) m q "</div>
-    <div>Friday, 17 May 2024</div>
-    <div>Doors: 19h00</div>
-    <div>Start: 20h00</div>
-    <div>at PRXCXT [Leipzig-Reudnitz]</div>
-    <div class="funny-icons">\ l q e</div>
+    <div class="funny-icons">t p x &</div>
+    <div>Thursday, 14 May 2026</div>
+    <div>Doors: 18h00</div>
+    <div>Start: 19h00</div>
+    <div>at Sciiiiik [Anger-Crottendorf]</div>
+    <div class="funny-icons">/ i a !</div>
 
     <div id="onStage">on stage:</div>
-    <div id="bands"><div
+    <div id="bands">
+      <div
         class='band'
         style="color:#F12E2F;background-color:#1B0A0B;border:3px groove #F12E2F">
-        <a href='https://dmra.bandcamp.com' 
+        <a href='https://youtu.be/3zsjoe_i11s' 
           target='_blank' rel='noopener noreferrer' 
           class='band_link'
           style="color:#1B0A0B;background-color:#F12E2F"
         >
-          Danse Musique Rhône-Alpes
+          Doskocz x Janssen
         </a>
-        
+        <div class='band_bio'>
+          some more guitaristic shenanigans as conjured by Paweł Doskocz, however this time dequantized by Zdrój’s Sebastiaan Janssen’s drummeling
+        </div>
         
       </div>
     <div
         class='band'
         style="color:#D86CB4;background-color:#001651;border:3px groove #D86CB4">
-        <a href='https://blackzonemythchant.bandcamp.com' 
+        <a href='https://youtu.be/NQg6de9QX58/' 
           target='_blank' rel='noopener noreferrer' 
           class='band_link'
           style="color:#001651;background-color:#D86CB4"
         >
-          BZMC fka. Black Zone Myth Chant
+          tsev x Strzał w Kolano
         </a>
-        
+        <div class='band_bio'>
+          an improvised symposium of ancient music held in an electronic agora brought to you by: Strzał w Kolano (of Kurws, Przepych, Pustostany and Norymberga) on detuned guitar and tsev on microtuned synthesizer
+        </div>
         
       </div>
     <div
         class='band'
         style="color:#824F5A;background-color:#FEF2BD;border:3px groove #824F5A">
-        <a href='https://soundcloud.com/poganyg' 
+        <a href='https://krutrecords.bandcamp.com/album/thats-the-law-in-this-land-after-all' 
           target='_blank' rel='noopener noreferrer' 
           class='band_link'
           style="color:#FEF2BD;background-color:#824F5A"
         >
-          iion & elder pogs
+          T.u.B.
         </a>
-        
+        <div class='band_bio'>
+          meditative noise weirdness as emitted by one of YOR’s members, expanding the designated usages of stringstruments, watering cans and various devices
+        </div>
         
       </div>
+    
     </div>
+    <img class="max-w-full m-auto p-4" src="https://itritritr.netlify.app/posters/2026-05-14.redacted.jpg"></img>
   </div>
-  <div class="warmup">
-    <h2 class="headline">Noisefest Warmupz 2024</h2>
 
-    <div class="funny-icons">* P Q y</div>
-    <div>Thursday, 23 May 2024</div>
-    <div>Doors: 19h00</div>
-    <div>Start: 20h00</div>
-    <div>at SPXLXNKX [Leipzig-Plagwitz]</div>
-    <div class="funny-icons">$ ( , v</div>
-
-    <div id="onStage">on stage:</div>
-    <div id="bands"><div
-        class='band'
-        style="color:#F12E2F;background-color:#1B0A0B;border:3px groove #F12E2F">
-        <a href='https://ubac.bandcamp.com/album/koniec-sosu-tysi-ca-wysp' 
-          target='_blank' rel='noopener noreferrer' 
-          class='band_link'
-          style="color:#1B0A0B;background-color:#F12E2F"
-        >
-          Atol Atol Atol
-        </a>
-        
-        
-      </div>
-    <div
-        class='band'
-        style="color:#D86CB4;background-color:#001651;border:3px groove #D86CB4">
-        <a href='https://napeneck.bandcamp.com/' 
-          target='_blank' rel='noopener noreferrer' 
-          class='band_link'
-          style="color:#001651;background-color:#D86CB4"
-        >
-          Nape Neck
-        </a>
-        
-        
-      </div>
-    <div
-        class='band'
-        style="color:#824F5A;background-color:#FEF2BD;border:3px groove #824F5A">
-        <a href='https://iliagorovitz.bandcamp.com' 
-          target='_blank' rel='noopener noreferrer' 
-          class='band_link'
-          style="color:#FEF2BD;background-color:#824F5A"
-        >
-          Ilia Gorowitz
-        </a>
-        
-        
-      </div>
-    </div>
-  </div>
-  <div class="funny-icons">c R % i</div>
 </main>
 
     </div>
+
     <footer>
 </footer>
+
 </body>
 
 </html>

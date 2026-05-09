@@ -70,6 +70,23 @@ module.exports = function (eleventyConfig) {
         link: "https://iliagorovitz.bandcamp.com",
       },
     ];
+    const bandsWarmup2026 = [
+      {
+        name: "Doskocz x Janssen",
+        bio: "some more guitaristic shenanigans as conjured by Paweł Doskocz, however this time dequantized by Zdrój’s Sebastiaan Janssen’s drummeling",
+        link: "https://youtu.be/3zsjoe_i11s",
+      },
+      {
+        name: "tsev x Strzał w Kolano",
+        bio: "an improvised symposium of ancient music held in an electronic agora brought to you by: Strzał w Kolano (of Kurws, Przepych, Pustostany and Norymberga) on detuned guitar and tsev on microtuned synthesizer",
+        link: "https://youtu.be/NQg6de9QX58/",
+      },
+      {
+        name: "T.u.B.",
+        bio: "meditative noise weirdness as emitted by one of YOR’s members, expanding the designated usages of stringstruments, watering cans and various devices",
+        link: "https://krutrecords.bandcamp.com/album/thats-the-law-in-this-land-after-all",
+      },
+    ];
     const bandsFestival2024Friday = [
       {
         name: "Sheik Anorak",
@@ -162,6 +179,8 @@ module.exports = function (eleventyConfig) {
           return bandsWarmup2024_1;
         case "warmup2024_2":
           return bandsWarmup2024_2;
+        case "warmup2026":
+          return bandsWarmup2026;
         case "festival2024Friday":
           return bandsFestival2024Friday;
         case "festival2024Saturday":
@@ -179,14 +198,14 @@ module.exports = function (eleventyConfig) {
       htmlElement += `<div
         class='band'
         style="color:${currentColourPair[0]};background-color:${
-        currentColourPair[1]
-      };border:3px groove ${currentColourPair[0]}">
+          currentColourPair[1]
+        };border:3px groove ${currentColourPair[0]}">
         <a href='${band.link}' 
           target='_blank' rel='noopener noreferrer' 
           class='band_link'
           style="color:${currentColourPair[1]};background-color:${
-        currentColourPair[0]
-      }"
+            currentColourPair[0]
+          }"
         >
           ${band.name}
         </a>
