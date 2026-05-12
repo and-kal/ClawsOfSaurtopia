@@ -87,6 +87,46 @@ module.exports = function (eleventyConfig) {
         link: "https://krutrecords.bandcamp.com/album/thats-the-law-in-this-land-after-all",
       },
     ];
+    const bandsFestival2026 = [
+      { name: "Molto", bio: "[D]" },
+      { name: "Murder Murder ", bio: "[US]" },
+      { name: "mʊdʌki and krickl krackl", bio: "[BY/CZ/D]" },
+      {
+        name: "Jooklo Duo",
+        bio: "[I]",
+        link: "http://troglosound.altervista.org",
+      },
+      {
+        name: "Bö.senberg",
+        bio: "[F/D]",
+        link: "https://industriemusicale.org/bo-senberg",
+      },
+      { name: "Jens Vetter", bio: "[A]" },
+      { name: "Ford Escort", bio: "[A]" },
+      { name: "Pixl", bio: "[D]", link: "https://pixl.pink/" },
+      {
+        name: "Jean-Philippe Gross",
+        bio: "[F]",
+        link: "https://jeanphilippegross.com/",
+      },
+      { name: "Jena Jang", bio: "[KOR/CZ]", link: "https://jenajang.com/" },
+      {
+        name: "The Selva",
+        bio: "[POR]",
+        link: "https://arquivo.osso.pt/en/projects/the-selva/",
+      },
+      { name: "WAL", bio: "[F]" },
+      {
+        name: "Earth Logoff",
+        bio: "[D]",
+        link: "https://earthlogoff.bandcamp.com/",
+      },
+      {
+        name: "DJ Shlucht",
+        bio: "[D]",
+        link: "https://djshlucht.bandcamp.com/album/drone-day",
+      },
+    ];
     const bandsFestival2024Friday = [
       {
         name: "Sheik Anorak",
@@ -96,7 +136,7 @@ module.exports = function (eleventyConfig) {
       {
         name: "Circuit Bending Surprise Act",
         bio: false,
-        link: "https://clawsofsaurtopia.neocities.org/archive/2024/workshops",
+        link: "https://clawsofsaurtopia.neocities.org/archive/2024/workshops/",
       },
       {
         name: "Viola Yip",
@@ -181,6 +221,8 @@ module.exports = function (eleventyConfig) {
           return bandsWarmup2024_2;
         case "warmup2026":
           return bandsWarmup2026;
+        case "festival2026":
+          return bandsFestival2026;
         case "festival2024Friday":
           return bandsFestival2024Friday;
         case "festival2024Saturday":
@@ -200,12 +242,14 @@ module.exports = function (eleventyConfig) {
         style="color:${currentColourPair[0]};background-color:${
           currentColourPair[1]
         };border:3px groove ${currentColourPair[0]}">
-        <a href='${band.link}' 
-          target='_blank' rel='noopener noreferrer' 
-          class='band_link'
-          style="color:${currentColourPair[1]};background-color:${
-            currentColourPair[0]
-          }"
+        `;
+      band.link
+        ? (htmlElement += `<a href='${band.link}' 
+          target='_blank' rel='noopener noreferrer' class='underline band_link' `)
+        : (htmlElement += `<a class='band_link' `);
+      htmlElement += `style="color:${currentColourPair[1]};background-color:${
+        currentColourPair[0]
+      }"
         >
           ${band.name}
         </a>
