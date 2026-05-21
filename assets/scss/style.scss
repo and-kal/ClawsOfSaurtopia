@@ -499,7 +499,7 @@ body {
         display: flex;
         flex-flow: column;
         .band {
-          padding: 0.125rem 1rem;
+          padding: 0.25rem 1rem;
           margin: 0.5rem;
         }
         .band_link {
@@ -544,6 +544,17 @@ body {
   }
   #main-container-2026 {
     background-image: url("/assets/img/noise2.png");
+  }
+  #index h3 {
+    font-weight: bold;
+    text-shadow:
+      0.512rem 0.256rem 5px #e79c10,
+      -0.256rem -0.512rem 5px #d53a33;
+  }
+  #index h4 {
+    text-shadow:
+      0.512rem 0.256rem 5px #10e758,
+      -0.256rem -0.512rem 5px #d533d0;
   }
 }
 

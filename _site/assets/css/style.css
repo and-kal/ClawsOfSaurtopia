@@ -438,7 +438,7 @@ body #main-container-2026 #content #bands {
 }
 body #main-container #content #bands .band,
 body #main-container-2026 #content #bands .band {
-  padding: 0.125rem 1rem;
+  padding: 0.25rem 1rem;
   margin: 0.5rem;
 }
 body #main-container #content #bands .band_link,
@@ -482,6 +482,13 @@ body #main-container-2026 #content .jagged-rule-dark {
 }
 body #main-container-2026 {
   background-image: url("/assets/img/noise2.png");
+}
+body #index h3 {
+  font-weight: bold;
+  text-shadow: 0.512rem 0.256rem 5px #e79c10, -0.256rem -0.512rem 5px #d53a33;
+}
+body #index h4 {
+  text-shadow: 0.512rem 0.256rem 5px #10e758, -0.256rem -0.512rem 5px #d533d0;
 }
 
 @-webkit-keyframes gradientBG {

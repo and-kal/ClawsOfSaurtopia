@@ -23,7 +23,11 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode("bandsAndColours", function (roster) {
     const randomColourPairings = [
+      ["#D01640", "#F9FA9D"],
+      ["#723DC8", "#F8D838"],
       ["#F12E2F", "#1B0A0B"],
+      ["#94C566", "#48034E"],
+      ["#7DFB52", "#911A1A"],
       ["#D86CB4", "#001651"],
       ["#824F5A", "#FEF2BD"],
       ["#D07E35", "#102437"],
@@ -32,6 +36,7 @@ module.exports = function (eleventyConfig) {
       ["#F69423", "#181578"],
       ["#32CBE9", "#301951"],
       ["#92ECCA", "#110A02"],
+      ["#C3F936", "#225C3B"],
       ["#373B52", "#C5EF80"],
       ["#A8E004", "#0506A7"],
     ];
@@ -87,43 +92,73 @@ module.exports = function (eleventyConfig) {
         link: "https://krutrecords.bandcamp.com/album/thats-the-law-in-this-land-after-all",
       },
     ];
-    const bandsFestival2026 = [
-      { name: "Molto", bio: "[D]" },
-      { name: "Murder Murder ", bio: "[US]" },
-      { name: "mʊdʌki and krickl krackl", bio: "[BY/CZ/D]" },
+    const bandsFestival2026Friday = [
       {
-        name: "Jooklo Duo",
-        bio: "[I]",
+        name: "Molto [D]",
+        bio: "minimal ambient electronics",
+        link: "https://ominira.bandcamp.com/album/versatile-international-service",
+      },
+      {
+        name: "Murder Murder [US]",
+        bio: "screamin’ j. brass core",
+        link: "https://murdermurder1.bandcamp.com/album/luxury",
+      },
+      {
+        name: "mʊdʌki and krickl krackl [BY/CZ/D]",
+        bio: "polyrhythmic dulcimer electronics",
+        link: "https://mudaki.bandcamp.com/",
+      },
+      {
+        name: "Jooklo Duo [IT]",
+        bio: "distorted free jazz",
         link: "http://troglosound.altervista.org",
       },
       {
-        name: "Bö.senberg",
-        bio: "[F/D]",
+        name: "Bö.senberg [F/D]",
+        bio: "hypnotic house drum",
         link: "https://industriemusicale.org/bo-senberg",
       },
-      { name: "Jens Vetter", bio: "[A]" },
-      { name: "Ford Escort", bio: "[A]" },
-      { name: "Pixl", bio: "[D]", link: "https://pixl.pink/" },
       {
-        name: "Jean-Philippe Gross",
-        bio: "[F]",
+        name: "Jens Vetter [A]",
+        bio: "synth-driven tek art",
+        link: "https://jensvetter.bandcamp.com/",
+      },
+      {
+        name: "Ford Escort [A]",
+        bio: "glitchy neon noise",
+        link: "https://www.mixcloud.com/DJ_Ford_Escort/",
+      },
+    ];
+    const bandsFestival2026Saturday = [
+      {
+        name: "Πxl [D]",
+        bio: "breath-controlled algorithms",
+        link: "https://pixl.pink/",
+      },
+      {
+        name: "Jean-Philippe Gross [F]",
+        bio: "dedicated feedback drones",
         link: "https://jeanphilippegross.com/",
       },
-      { name: "Jena Jang", bio: "[KOR/CZ]", link: "https://jenajang.com/" },
       {
-        name: "The Selva",
-        bio: "[POR]",
+        name: "Jena Jang [KOR/CZ]",
+        bio: "raw noise ’n’ voice",
+        link: "https://jenajang.com/",
+      },
+      {
+        name: "The Selva [POR]",
+        bio: "post-jazzy tonewood",
         link: "https://arquivo.osso.pt/en/projects/the-selva/",
       },
-      { name: "WAL", bio: "[F]" },
+      { name: "WAL [F]", bio: "superfresh future electronis" },
       {
-        name: "Earth Logoff",
-        bio: "[D]",
+        name: "Earth Logoff [D]",
+        bio: "industrial cyber grind",
         link: "https://earthlogoff.bandcamp.com/",
       },
       {
-        name: "DJ Shlucht",
-        bio: "[D]",
+        name: "DJ Shlucht [D]",
+        bio: "eclectic turntable katz",
         link: "https://djshlucht.bandcamp.com/album/drone-day",
       },
     ];
@@ -221,8 +256,10 @@ module.exports = function (eleventyConfig) {
           return bandsWarmup2024_2;
         case "warmup2026":
           return bandsWarmup2026;
-        case "festival2026":
-          return bandsFestival2026;
+        case "festival2026Friday":
+          return bandsFestival2026Friday;
+        case "festival2026Saturday":
+          return bandsFestival2026Saturday;
         case "festival2024Friday":
           return bandsFestival2024Friday;
         case "festival2024Saturday":
@@ -232,10 +269,13 @@ module.exports = function (eleventyConfig) {
       }
     };
 
+    const shuffledColourPairings = [...randomColourPairings].sort(
+      () => Math.random() - 0.5,
+    );
     let htmlElement = "";
     bands().map((band, index) => {
       const currentColourPair =
-        randomColourPairings[index % randomColourPairings.length];
+        shuffledColourPairings[index % shuffledColourPairings.length];
 
       htmlElement += `<div
         class='band'

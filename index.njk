@@ -8,18 +8,22 @@ layout: base.njk
       <h2 class="headline text-lg md:text-2xl w-fit m-auto text-black mb-2">
         After one year of hiatus the Claws Of Saurtopia noisefest #11 is coming up in 2026
       </h2>
+      <div class="w-full my-2">
+        <img class="max-w-full m-auto" src="/assets/video/noise_teaser-ani-2026.gif"></img>
+      </div>
       <div class="funny-icons">a / f o</div>
-      <div>Friday, 5 June 2026</div>
-      <div>+++</div>
-      <div>Saturday, 6 June 2026</div>
-      <div>Doors: 20:30</div>
-      <div>Start: 21:00</div>
-      <div>at youknowwhere</div>
+      <h3>Friday, 5 June 2026</h3>
+      <h4>Doors: 20:30</h4>
+      <h4>Start: 21:00</h4>
+      <div id="bands">{% bandsAndColours 'festival2026Friday' %}</div>
     </div>
-    <div class="w-full my-2">
-      <img class="max-w-full m-auto" src="/assets/video/noise_teaser-ani-2026.gif"></img>
+    <div>
+      <div class="funny-icons">l ! G Z</div>
+      <h3>Satuday, 6 June 2026</h3>
+      <h4>Doors: 20:30</h4>
+      <h4>Start: 21:00</h4>
+      <div id="bands">{% bandsAndColours 'festival2026Saturday' %}</div>
     </div>
-    {% bandsAndColours 'festival2026' %}
     <div class="my-2">
       See you there!
     </div>
