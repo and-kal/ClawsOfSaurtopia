@@ -1,3 +1,4 @@
 {
+  "layout": "archive-post.njk",
   "permalink": "{{ page.filePathStem }}.html"
 }

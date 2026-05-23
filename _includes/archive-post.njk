@@ -1,0 +1,21 @@
+---
+layout: base.njk
+---
+<style>
+  .archive-content a {
+    color: #60a5fa;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .archive-content a:hover {
+    color: #93c5fd;
+  }
+</style>
+<div class="text-left max-w-2xl mx-auto px-4 py-2">
+  <div class="mb-4">
+    <a href="/archive/pre-2022/" class="text-blue-400 hover:underline text-sm">← pre-2022 archive</a>
+  </div>
+  <div class="archive-content">
+    {{ content | safe }}
+  </div>
+</div>
