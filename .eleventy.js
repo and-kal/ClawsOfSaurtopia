@@ -10,7 +10,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./assets/*.*");
   eleventyConfig.addPassthroughCopy("./archive/2022");
   eleventyConfig.addPassthroughCopy("./archive/assets");
-  eleventyConfig.addPassthroughCopy("./archive/html");
+  eleventyConfig.addPassthroughCopy("./archive/html/*.html");
   eleventyConfig.addPassthroughCopy("./archive/media");
   eleventyConfig.addPassthroughCopy({
     "./node_modules/hydra-synth/dist/hydra-synth.js":
